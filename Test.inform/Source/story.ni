@@ -220,7 +220,7 @@ Every turn:
 	if game_counter is 4 and know_switch is 0, say "[bold type]If this is a room, surely there must be a light switch somewhere[roman type].";
 	if game_counter > 12 and know_key1 is 0 and the bed is underlaid by the brass key and the Cabin is lighted and desc_4 is 0:
 		now desc_4 is 1;
-		say "[bold type]As you look around the small cabin, your eyes catch a glint from under the bed. Is there something under your bed?[roman type]".
+		say "[bold type]As you look around the small cabin, A small glint coming from under your bed catches your attention.[roman type]".
 [ ---------------------------------   Backdrop  -----------------------------------------]
 The wall is a backdrop. It is everywhere.
 Instead of touching the wall:
@@ -291,6 +291,12 @@ After deciding the scope of the player when the location is the Cabin:
 	place the steel door in scope;
 	place the wall in scope;
 
+After :
+	place the light switch in scope;
+	place the bed in scope;
+	place the steel door in scope;
+	place the wall in scope;
+	
 Before touching the bed:
 	instead say "You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease."
 Before touching the pillow:
@@ -326,7 +332,7 @@ Before smelling:
 		instead say "You can smell the grease and oil coming from the engine room. The machines seems to be working alright."
 
 Instead of taking the revolver pistol for the first time:
-	say "An antique revolver pistol lies silently in the drawer. The revolver is a Webley Mk. IV revolver, a memorial medal for a war veteran of a not so distant war.";
+	say "An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.[paragraph break]";
 	say "The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - [if game_clue is 0][passcode of the padlock][otherwise][passcode of the pistol][end if].[paragraph break]";
 	say "You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.";
 	increment game_state;
@@ -356,14 +362,14 @@ Instead of examining the books for the third time:
 		say "One particular book piques your interest - [italic type]'Death of a Space Man'[roman type]. As you read through it, you see your fragmented memories of yore flying by before your eyes - your childhood fantasies of dreaming of becoming an astronaut and leave the Earth to explore the galaxy, but something interrupts your journey, something gargantuan, ancient and of unspeakable evil. you seem to recall a certain passcode of some importance - [passcode of the books].".
 
 Instead of examining the wedding picture for the first time:
-	say "A wedding picture of a happy couple in a decorated wooden frame.";
+	say "A wedding picture of a happy couple in a decorated wooden frame. The man in the picture looks handsome and confident in his military uniform. You recognize the man in the picture is actually you.";
 	if game_clue is 1:
 		say "You see a hand-written 4-digit number written in the back of the picture - [passcode of padlock]";
 	otherwise:
 		say "You see a hand-written 4-digit number written in the back of the picture - [passcode of the wedding picture].".
 
 Instead of examining the paper for the first time:
-	say "A few paper files concerning the course of the ship - MV Valiant and its crew member. You see your name under the title First Mate.";
+	say "A few paper files concerning details of the ship - MV Valiant, its crew member, cargo and the current course. You see your name under the title First Mate.";
 	if game_clue is 3:
 		say "You seem to recall a certain passcode - [passcode of padlock]";
 	otherwise:
