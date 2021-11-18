@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F5DFF0FF-1F08-4C96-B790-4DA5B3A5EFD6</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>The Ghost Ship</title>
+            <author>'INFORMational Wizards' Release along with a website</author>
+            <headline>An Interactive Fiction</headline>
+            <genre>Fiction</genre>
+            <firstpublished>2021</firstpublished>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2021-11-19</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6M62</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6M62</generatorversion>
+            <originated>2021-11-19</originated>
+        </colophon>
+        <glulx>
+            <serial>211119</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6M62</compiler>
+        </glulx>
+    </story>
+</ifindex>

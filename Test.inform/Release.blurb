@@ -1,0 +1,57 @@
+! Blurb file created by Inform build 6M62
+
+status "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\123\Documents\Inform\Projects\Test.inform"
+release to "C:\Users\123\Documents\Inform\Projects\Test.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "The Ghost Ship.gblorb"
+storyfile "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\output.ulx" include
+ifiction "C:\Users\123\Documents\Inform\Projects\Test.inform\Metadata.iFiction" include
+cover "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
+release file "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Small Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F5DFF0FF-1F08-4C96-B790-4DA5B3A5EFD6"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2021"
+placeholder [TITLE] = "The Ghost Ship"
+placeholder [AUTHOR] = "'INFORMational Wizards' Release along with a website"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "The Ghost Ship.gblorb.js"
+template path "C:\Users\123\Documents\Inform\Projects\Test.materials\Templates"
+template path "C:\Users\123\Documents\Inform\Templates"
+template path "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\output.ulx" to "C:\Users\123\Documents\Inform\Projects\Test.materials\Release\interpreter\The Ghost Ship.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\123\Documents\Inform\Projects\Test.materials\Templates"
+template path "C:\Users\123\Documents\Inform\Templates"
+template path "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line3"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
