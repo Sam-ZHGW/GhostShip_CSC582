@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\StatusCblorb.html"
+status "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\123\Documents\Inform\GhostShip\Test.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\123\Documents\Inform\Projects\Test.inform"
-release to "C:\Users\123\Documents\Inform\Projects\Test.materials\Release"
+project folder "C:\Users\123\Documents\Inform\GhostShip\Test.inform"
+release to "C:\Users\123\Documents\Inform\GhostShip\Test.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "The Ghost Ship.gblorb"
-storyfile "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\output.ulx" include
-ifiction "C:\Users\123\Documents\Inform\Projects\Test.inform\Metadata.iFiction" include
+storyfile "C:\Users\123\Documents\Inform\GhostShip\Test.inform\Build\output.ulx" include
+ifiction "C:\Users\123\Documents\Inform\GhostShip\Test.inform\Metadata.iFiction" include
 cover "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
 picture 1 "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
 release file "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Miscellany\Cover.jpg"
@@ -33,16 +33,16 @@ placeholder [BLURB] = "A work of interactive fiction."
 ! Website instructions
 
 placeholder [ENCODEDSTORYFILE] = "The Ghost Ship.gblorb.js"
-template path "C:\Users\123\Documents\Inform\Projects\Test.materials\Templates"
+template path "C:\Users\123\Documents\Inform\GhostShip\Test.materials\Templates"
 template path "C:\Users\123\Documents\Inform\Templates"
 template path "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Templates"
 placeholder [INTERPRETERSCRIPTS] = " "
 interpreter "Quixe" "g"
-base64 "C:\Users\123\Documents\Inform\Projects\Test.inform\Build\output.ulx" to "C:\Users\123\Documents\Inform\Projects\Test.materials\Release\interpreter\The Ghost Ship.gblorb.js"
+base64 "C:\Users\123\Documents\Inform\GhostShip\Test.inform\Build\output.ulx" to "C:\Users\123\Documents\Inform\GhostShip\Test.materials\Release\interpreter\The Ghost Ship.gblorb.js"
 
 ! Website instructions
 
-template path "C:\Users\123\Documents\Inform\Projects\Test.materials\Templates"
+template path "C:\Users\123\Documents\Inform\GhostShip\Test.materials\Templates"
 template path "C:\Users\123\Documents\Inform\Templates"
 template path "E:\Docs\CSC582 INTERACTIVE NARRATIVE\PROJECT\Inform 7\Internal\Templates"
 css

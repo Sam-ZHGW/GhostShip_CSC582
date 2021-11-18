@@ -393,6 +393,7 @@ A bunker door is a door. The southern hallway is north of the bunker door. The b
 The Engine room is a room. North of the engine room is the bunker door. South of the bunker door is the engine room.
 
 When play begins:
+	say "[bold type]Trigger warning: This game deals with violence and suicidal contents.[paragraph break][paragraph break]";
 	now the game_clue is a random number from 0 to 3;
 	now the passcode of the padlock is a random number from 1001 to 9999;
 	now the passcode of the pistol is a random number from 1001 to 9999;
