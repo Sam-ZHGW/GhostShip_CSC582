@@ -12573,8 +12573,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! When play begins:
-[ R_861 ;
-    if (debug_rules) DB_Rule(R_861, 861);
+[ R_860 ;
+    if (debug_rules) DB_Rule(R_860, 860);
     ! [2: say ~[bold type]Trigger warning: This game deals with violence and suicidal contents.[paragraph break][paragraph break]~]
     say__p=1;! [3: bold type]
     ParaContent(); style bold;! [4: ~Trigger warning: This game deals with violence and suicidal contents.~]
@@ -13115,46 +13115,46 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! Before touching the bed:
-[ R_841 ;
+[ R_840 ;
     if ((((action ==##Touch) &&  (actor==player) && ((noun == I127_bed) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_841, 841);
+    if (debug_rules) DB_Rule(R_840, 840);
     ! [2: say ~You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.~]
     say__p=1;! [3: ~You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.~]
     ParaContent(); print "You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease."; new_line; .L_Say6; .L_SayX6;rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_841, 841, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_840, 840, 'action');
     rfalse;
 ];
 ! No specific request
 ! Before touching the pillow:
-[ R_842 ;
+[ R_841 ;
     if ((((action ==##Touch) &&  (actor==player) && ((noun == I131_pillow) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_842, 842);
+    if (debug_rules) DB_Rule(R_841, 841);
     ! [2: say ~Bouncy feather pillow, soft and warm to the touch.~]
     say__p=1;! [3: ~Bouncy feather pillow, soft and warm to the touch.~]
     ParaContent(); print "Bouncy feather pillow, soft and warm to the touch."; new_line; .L_Say7; .L_SayX7;rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_842, 842, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_841, 841, 'action');
     rfalse;
 ];
 ! No specific request
 ! Before touching the quilt:
-[ R_843 ;
+[ R_842 ;
     if ((((action ==##Touch) &&  (actor==player) && ((noun == I132_quilt) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_843, 843);
+    if (debug_rules) DB_Rule(R_842, 842);
     ! [2: say ~Soft, handcrafted cotton quilt.~]
     say__p=1;! [3: ~Soft, handcrafted cotton quilt.~]
     ParaContent(); print "Soft, handcrafted cotton quilt."; new_line; .L_Say8; .L_SayX8;rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_843, 843, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_842, 842, 'action');
     rfalse;
 ];
 ! No specific request
 ! Before touching the light switch:
-[ R_844 ;
+[ R_843 ;
     if ((((action ==##Touch) &&  (actor==player) && ((noun == I145_light_switch) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_844, 844);
+    if (debug_rules) DB_Rule(R_843, 843);
     ! [2: if know_switch is 0]
     if ((((Global_Vars-->15) == 0)))
     {! [3: say ~[if the player is on the bed]You get off the bed, [otherwise]You [end if]grope for any protrusion along the wall. Your finger touches a small metal lever, this must be it!~]
@@ -13183,31 +13183,31 @@ Array ActionHappened --> 0 0 0 0 0 0;
         say__p=1;! [16: ~A common metal light switch.~]
         ParaContent(); print "A common metal light switch."; new_line; .L_Say12; .L_SayX11;rtrue;
         }
-        } else if (debug_rules > 1) DB_Rule(R_844, 844, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_843, 843, 'action');
         rfalse;
 ];
 ! No specific request
 ! Before taking off the leather coat:
-[ R_860 ;
+[ R_859 ;
     if ((((action ==##Disrobe) &&  (actor==player) && ((noun == I136_leather_coat) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_860, 860);
+    if (debug_rules) DB_Rule(R_859, 859);
     ! [2: say ~You feel safe and comfy in it, it is not much but it's thick enough to protect you against the cold.~]
     say__p=1;! [3: ~You feel safe and comfy in it, it is not much but it's thick enough to protect you against the cold.~]
     ParaContent(); print "You feel safe and comfy in it, it is not much but it's thick enough to protect you against the cold."; new_line; .L_Say13; .L_SayX12;rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_860, 860, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_859, 859, 'action');
     rfalse;
 ];
 ! No specific request
 ! Before touching the player:
-[ R_845 ;
+[ R_844 ;
     if ((((action ==##Touch) &&  (actor==player) && ((noun == player) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_845, 845);
+    if (debug_rules) DB_Rule(R_844, 844);
     ! [2: say ~Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.~]
     say__p=1;! [3: ~Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.~]
     ParaContent(); print "Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark."; new_line; .L_Say14; .L_SayX13;rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_845, 845, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_844, 844, 'action');
     rfalse;
 ];
 ! No specific request
@@ -13288,10 +13288,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Before listening:
-[ R_846 ;
+[ R_845 ;
     if ((((action ==##Listen) &&  (actor==player)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_846, 846);
+    if (debug_rules) DB_Rule(R_845, 845);
     ! [2: if the player is on the bed]
     if (((I127_bed == SupporterOf(player))))
     {! [3: say ~All you can hear is the sound of silence.~]
@@ -13311,15 +13311,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
             ParaContent(); print "All you can hear is the sound of silence."; new_line; .L_Say25; .L_SayX24;rtrue;
             }
             }
-            } else if (debug_rules > 1) DB_Rule(R_846, 846, 'action');
+            } else if (debug_rules > 1) DB_Rule(R_845, 845, 'action');
             rfalse;
 ];
 ! No specific request
 ! Before smelling:
-[ R_847 ;
+[ R_846 ;
     if ((((action ==##Smell) &&  (actor==player)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_847, 847);
+    if (debug_rules) DB_Rule(R_846, 846);
     ! [2: if the player is on the bed]
     if (((I127_bed == SupporterOf(player))))
     {! [3: say ~You get a sniff of a greasy smell, you must be lying on this pillow for quite some time.~]
@@ -13339,7 +13339,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
             ParaContent(); print "You can smell the grease and oil coming from the engine room. The machines seems to be working alright."; new_line; .L_Say28; .L_SayX27;rtrue;
             }
             }
-            } else if (debug_rules > 1) DB_Rule(R_847, 847, 'action');
+            } else if (debug_rules > 1) DB_Rule(R_846, 846, 'action');
             rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -13395,10 +13395,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Instead of taking the revolver pistol for the first time:
-[ R_848 ;
+[ R_847 ;
     if ((PAPR_1() && (((TimesActionHasHappened-->1) == 1) && (ActionCurrentlyHappeningFlag->1)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_848, 848);
+    if (debug_rules) DB_Rule(R_847, 847);
     ! [2: say ~An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.[paragraph break]~]
     say__p=1;! [3: ~An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.~]
     ParaContent(); print "An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.";! [4: paragraph break]
@@ -13421,15 +13421,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [17: now the player has the pistol]
     MoveObject(I144_revolver_pistol,player);
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_848, 848, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_847, 847, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of examining the books for the first time:
-[ R_853 ;
+[ R_852 ;
     if ((PAPR_2() && (((TimesActionHasHappened-->2) == 1) && (ActionCurrentlyHappeningFlag->2)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_853, 853);
+    if (debug_rules) DB_Rule(R_852, 852);
     ! [2: say ~You quickly [bold type]skim through[roman type] the book names, some of them sound quite familiar to you. You're quite convinced that you've read them somewhere sometime, but you can't remember any detail regarding any of the books, at all.~]
     say__p=1;! [3: ~You quickly ~]
     ParaContent(); print "You quickly ";! [4: bold type]
@@ -13437,15 +13437,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print "skim through";! [6: roman type]
     ParaContent(); style roman;! [7: ~ the book names, some of them sound quite familiar to you. You're quite convinced that you've read them somewhere sometime, but you can't remember any detail regarding any of the books, at all.~]
     ParaContent(); print " the book names, some of them sound quite familiar to you. You're quite convinced that you've read them somewhere sometime, but you can't remember any detail regarding any of the books, at all."; new_line; .L_Say35; .L_SayX33;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_853, 853, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_852, 852, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of examining the books for the second time:
-[ R_854 ;
+[ R_853 ;
     if ((PAPR_3() && (((TimesActionHasHappened-->3) == 2) && (ActionCurrentlyHappeningFlag->3)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_854, 854);
+    if (debug_rules) DB_Rule(R_853, 853);
     ! [2: say ~You [bold type]pick up a few and flick through them[roman type] as you check if there's anything worth noting, but you found nothing particualrly interesting to you. Maybe take another closer look?~]
     say__p=1;! [3: ~You ~]
     ParaContent(); print "You ";! [4: bold type]
@@ -13453,15 +13453,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ParaContent(); print "pick up a few and flick through them";! [6: roman type]
     ParaContent(); style roman;! [7: ~ as you check if there's anything worth noting, but you found nothing particualrly interesting to you. Maybe take another closer look?~]
     ParaContent(); print " as you check if there's anything worth noting, but you found nothing particualrly interesting to you. Maybe take another closer look?"; new_line; .L_Say36; .L_SayX34;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_854, 854, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_853, 853, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of examining the books for the third time:
-[ R_855 ;
+[ R_854 ;
     if ((PAPR_4() && (((TimesActionHasHappened-->4) == 3) && (ActionCurrentlyHappeningFlag->4)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_855, 855);
+    if (debug_rules) DB_Rule(R_854, 854);
     ! [2: if game_clue is 2]
     if ((((Global_Vars-->14) == 2)))
     {! [3: say ~One particular book piques your interest - [italic type]'Folktales of the Great Old Ones'[roman type]. As you read through it, you see your fragmented memories of yore flying by before your eyes - your childhood fantasies about big bad monsters roaming the ancient Earth, fighting each other for their own agenda. A four-digit code emerges from deep within your memory. - [passcode of padlock]~]
@@ -13482,15 +13482,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ParaContent(); @push self; print (say__n=GProperty(10, self=I134_books,p16_passcode));@pull self; ! [17: ~.~]
         ParaContent(); print "."; new_line; .L_Say38; .L_SayX36;}
         RulebookFails(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_855, 855, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_854, 854, 'action');
         rfalse;
 ];
 ! No specific request
 ! Instead of examining the wedding picture for the first time:
-[ R_856 ;
+[ R_855 ;
     if ((PAPR_5() && (((TimesActionHasHappened-->5) == 1) && (ActionCurrentlyHappeningFlag->5)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_856, 856);
+    if (debug_rules) DB_Rule(R_855, 855);
     ! [2: say ~A wedding picture of a happy couple in a decorated wooden frame. The man in the picture looks handsome and confident in his military uniform. You recognize the man in the picture is actually you.~]
     say__p=1;! [3: ~A wedding picture of a happy couple in a decorated wooden frame. The man in the picture looks handsome and confident in his military uniform. You recognize the man in the picture is actually you.~]
     ParaContent(); print "A wedding picture of a happy couple in a decorated wooden frame. The man in the picture looks handsome and confident in his military uniform. You recognize the man in the picture is actually you."; new_line; .L_Say39; .L_SayX37;! [4: if game_clue is 1]
@@ -13505,15 +13505,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ParaContent(); @push self; print (say__n=GProperty(10, self=I142_wedding_picture,p16_passcode));@pull self; ! [11: ~.~]
         ParaContent(); print "."; new_line; .L_Say41; .L_SayX39;}
         RulebookFails(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_856, 856, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_855, 855, 'action');
         rfalse;
 ];
 ! No specific request
 ! Instead of examining the paper for the first time:
-[ R_857 ;
+[ R_856 ;
     if ((PAPR_6() && (((TimesActionHasHappened-->6) == 1) && (ActionCurrentlyHappeningFlag->6)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_857, 857);
+    if (debug_rules) DB_Rule(R_856, 856);
     ! [2: say ~A few paper files concerning details of the ship - MV Valiant, its crew member, cargo and the current course. You see your name under the title First Mate.~]
     say__p=1;! [3: ~A few paper files concerning details of the ship - MV Valiant, its crew member, cargo and the current course. You see your name under the title First Mate.~]
     ParaContent(); print "A few paper files concerning details of the ship - MV Valiant, its crew member, cargo and the current course. You see your name under the title First Mate."; new_line; .L_Say42; .L_SayX40;! [4: if game_clue is 3]
@@ -13528,15 +13528,15 @@ Array ActionHappened --> 0 0 0 0 0 0;
         ParaContent(); @push self; print (say__n=GProperty(10, self=I130_few_paper,p16_passcode));@pull self; ! [11: ~.~]
         ParaContent(); print "."; new_line; .L_Say44; .L_SayX42;}
         RulebookFails(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_857, 857, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_856, 856, 'action');
         rfalse;
 ];
 ! No specific request
 ! Instead of examining the Captain's Log for the first time:
-[ R_858 ;
+[ R_857 ;
     if ((PAPR_7() && (((TimesActionHasHappened-->7) == 1) && (ActionCurrentlyHappeningFlag->7)))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_858, 858);
+    if (debug_rules) DB_Rule(R_857, 857);
     ! [2: increment game_state]
     (Global_Vars-->12) = (Global_Vars-->12) + 1;;
     ! [3: now the not_broken of the welding unit is 0]
@@ -13546,7 +13546,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [5: say ~ouch!~]
     say__p=1;! [6: ~ouch!~]
     ParaContent(); print "ouch!"; new_line; .L_Say45; .L_SayX43;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_858, 858, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_857, 857, 'action');
     rfalse;
 ];
 ! No specific request
@@ -13649,10 +13649,10 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ];
 ! No specific request
 ! Instead of examining the revolver pistol:
-[ R_849 ;
+[ R_848 ;
     if ((((action ==##Examine) &&  (actor==player) && ((noun == I144_revolver_pistol) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_849, 849);
+    if (debug_rules) DB_Rule(R_848, 848);
     ! [2: if the player has the revolver pistol]
     if (((player == OwnerOf(I144_revolver_pistol))))
     {! [3: say ~A Webley Mk. IV .455 revolver pistol. Although it seems pretty shiny and new, upon closer inspection you can see that, despite good maintenance efforts, there are small scratches all over. How many battles it must have been through?~]
@@ -13663,43 +13663,43 @@ Array ActionHappened --> 0 0 0 0 0 0;
     ! [6: try taking the revolver pistol]
     TryAction(0, player, ##Take, I144_revolver_pistol, 0);
     RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_849, 849, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_848, 848, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of taking the books:
-[ R_850 ;
+[ R_849 ;
     if ((((action ==##Take) &&  (actor==player) && ((noun == I134_books) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_850, 850);
+    if (debug_rules) DB_Rule(R_849, 849);
     ! [2: say ~Why would you take these books with you?~]
     say__p=1;! [3: ~Why would you take these books with you?~]
     ParaContent(); print "Why would you take these books with you?"; new_line; .L_Say55; .L_SayX53;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_850, 850, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_849, 849, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of taking the wedding picture:
-[ R_851 ;
+[ R_850 ;
     if ((((action ==##Take) &&  (actor==player) && ((noun == I142_wedding_picture) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_851, 851);
+    if (debug_rules) DB_Rule(R_850, 850);
     ! [2: say ~Why would you take the photo with you?~]
     say__p=1;! [3: ~Why would you take the photo with you?~]
     ParaContent(); print "Why would you take the photo with you?"; new_line; .L_Say56; .L_SayX54;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_851, 851, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_850, 850, 'action');
     rfalse;
 ];
 ! No specific request
 ! Instead of taking the paper:
-[ R_852 ;
+[ R_851 ;
     if ((((action ==##Take) &&  (actor==player) && ((noun == I130_few_paper) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_852, 852);
+    if (debug_rules) DB_Rule(R_851, 851);
     ! [2: say ~Why would you take these paper with you?~]
     say__p=1;! [3: ~Why would you take these paper with you?~]
     ParaContent(); print "Why would you take these paper with you?"; new_line; .L_Say57; .L_SayX55;RulebookFails(); rtrue;
-    } else if (debug_rules > 1) DB_Rule(R_852, 852, 'action');
+    } else if (debug_rules > 1) DB_Rule(R_851, 851, 'action');
     rfalse;
 ];
 ! No specific request
@@ -13733,16 +13733,14 @@ Array ActionHappened --> 0 0 0 0 0 0;
 ! ----------------------------------------------------------------------------------------------------
 ! Rules in rulebook: After (B23_after)
 ! ----------------------------------------------------------------------------------------------------
-! Rule 1/2 ! After wearing the leather coat:
-!   >>> I - Number of aspects constrained >>>
-! Rule 2/2 ! After:
+! Rule 1/1 ! After wearing the leather coat:
 ! ----------------------------------------------------------------------------------------------------
 ! No specific request
 ! After wearing the leather coat:
-[ R_859 ;
+[ R_858 ;
     if ((((action ==##Wear) &&  (actor==player) && ((noun == I136_leather_coat) && (true))))) { ! Runs only when pattern matches
     self = noun;
-    if (debug_rules) DB_Rule(R_859, 859);
+    if (debug_rules) DB_Rule(R_858, 858);
     ! [2: if the player is wearing the leather coat]
     if (((player == WearerOf(I136_leather_coat))))
     {! [3: increase carrying capacity of player by 2]
@@ -13751,23 +13749,8 @@ Array ActionHappened --> 0 0 0 0 0 0;
         say__p=1;! [5: ~You now have more pockets to store items.~]
         ParaContent(); print "You now have more pockets to store items."; new_line; .L_Say59; .L_SayX57;}
         RulebookSucceeds(); rtrue;
-        } else if (debug_rules > 1) DB_Rule(R_859, 859, 'action');
+        } else if (debug_rules > 1) DB_Rule(R_858, 858, 'action');
         rfalse;
-];
-! No specific request
-! After:
-[ R_840 ;
-    if (debug_rules) DB_Rule(R_840, 840);
-    ! [2: place the light switch in scope]
-    PlaceInScope(I145_light_switch, 0);
-    ! [3: place the bed in scope]
-    PlaceInScope(I127_bed, 0);
-    ! [4: place the steel door in scope]
-    PlaceInScope(I146_steel_door, 0);
-    ! [5: place the wall in scope]
-    PlaceInScope(I126_wall, 0);
-    RulebookSucceeds(); rtrue;
-    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
 
@@ -23495,10 +23478,10 @@ Array rulebooks_array --> B0_startup B1_turn_sequence B2_shutdown B3_scene_chang
     forbid_breaks ! Implied call parameter
     rv ! return value
     ;
-    rv = R_861();
+    rv = R_860();
     if (rv) {
         if (rv == 2) return reason_the_action_failed;
-        return R_861;
+        return R_860;
     }
     latest_rule_result-->0 = 0;
     return 0; ! 1 rule(s)
@@ -23850,6 +23833,14 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     ;
     original_deadflag = deadflag;
     if (action == ##Touch) {
+        rv = R_840();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_840;
+        }
+        latest_rule_result-->0 = 0;
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_841();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
@@ -23872,24 +23863,16 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
             return R_843;
         }
         latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_844();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_844;
-        }
-        latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
     if (action == ##Disrobe) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_860();
+        rv = R_859();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_860;
+            return R_859;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -23898,10 +23881,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Touch) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_845();
+        rv = R_844();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_845;
+            return R_844;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -23946,10 +23929,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Listen) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_846();
+        rv = R_845();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_846;
+            return R_845;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -23958,10 +23941,10 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Smell) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_847();
+        rv = R_846();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_847;
+            return R_846;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -23988,16 +23971,24 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Take) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_848();
+        rv = R_847();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_848;
+            return R_847;
         }
         latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
     if (action == ##Examine) {
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_852();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_852;
+        }
+        latest_rule_result-->0 = 0;
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_853();
@@ -24036,14 +24027,6 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_857;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_858();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_858;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -24100,16 +24083,24 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
     if (action == ##Examine) {
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_849();
+        rv = R_848();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_849;
+            return R_848;
         }
         latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
     if (action == ##Take) {
+        if (original_deadflag ~= deadflag) return 0;
+        if (say__p) RulebookParBreak(forbid_breaks);
+        rv = R_849();
+        if (rv) {
+            if (rv == 2) return reason_the_action_failed;
+            return R_849;
+        }
+        latest_rule_result-->0 = 0;
         if (original_deadflag ~= deadflag) return 0;
         if (say__p) RulebookParBreak(forbid_breaks);
         rv = R_850();
@@ -24124,14 +24115,6 @@ Constant B18_unsuccessful_attempt_by = EMPTY_RULEBOOK;
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
             return R_851;
-        }
-        latest_rule_result-->0 = 0;
-        if (original_deadflag ~= deadflag) return 0;
-        if (say__p) RulebookParBreak(forbid_breaks);
-        rv = R_852();
-        if (rv) {
-            if (rv == 2) return reason_the_action_failed;
-            return R_852;
         }
         latest_rule_result-->0 = 0;
     } else {
@@ -24156,28 +24139,18 @@ Constant B22_carry_out = EMPTY_RULEBOOK;
 [ B23_after 
     forbid_breaks ! Implied call parameter
     rv ! return value
-    original_deadflag ! saved state
     ;
-    original_deadflag = deadflag;
     if (action == ##Wear) {
-        rv = R_859();
+        rv = R_858();
         if (rv) {
             if (rv == 2) return reason_the_action_failed;
-            return R_859;
+            return R_858;
         }
         latest_rule_result-->0 = 0;
     } else {
         if (say__p) RulebookParBreak(forbid_breaks);
     }
-    if (original_deadflag ~= deadflag) return 0;
-    if (say__p) RulebookParBreak(forbid_breaks);
-    rv = R_840();
-    if (rv) {
-        if (rv == 2) return reason_the_action_failed;
-        return R_840;
-    }
-    latest_rule_result-->0 = 0;
-    return 0; ! 2 rule(s)
+    return 0; ! 1 rule(s)
 ];
 Constant B24_report = EMPTY_RULEBOOK;
 [ B25_does_the_player_mean 
@@ -32460,28 +32433,27 @@ Array RulebookNames -->
         if (R == R_837) { print "Carry out opening the steel door"; rtrue; } ! rule 385
         if (R == R_838) { print "Carry out closing the steel door"; rtrue; } ! rule 386
         if (R == R_839) { print "After deciding the scope of the player when the location is the Cabin"; rtrue; } ! rule 387
-        if (R == R_840) { print "After"; rtrue; } ! rule 388
-        if (R == R_841) { print "Before touching the bed"; rtrue; } ! rule 389
-        if (R == R_842) { print "Before touching the pillow"; rtrue; } ! rule 390
-        if (R == R_843) { print "Before touching the quilt"; rtrue; } ! rule 391
-        if (R == R_844) { print "Before touching the light switch"; rtrue; } ! rule 392
-        if (R == R_845) { print "Before touching the player"; rtrue; } ! rule 393
-        if (R == R_846) { print "Before listening"; rtrue; } ! rule 394
-        if (R == R_847) { print "Before smelling"; rtrue; } ! rule 395
-        if (R == R_848) { print "Instead of taking the revolver pistol for the first time"; rtrue; } ! rule 396
-        if (R == R_849) { print "Instead of examining the revolver pistol"; rtrue; } ! rule 397
-        if (R == R_850) { print "Instead of taking the books"; rtrue; } ! rule 398
-        if (R == R_851) { print "Instead of taking the wedding picture"; rtrue; } ! rule 399
-        if (R == R_852) { print "Instead of taking the paper"; rtrue; } ! rule 400
-        if (R == R_853) { print "Instead of examining the books for the first time"; rtrue; } ! rule 401
-        if (R == R_854) { print "Instead of examining the books for the second time"; rtrue; } ! rule 402
-        if (R == R_855) { print "Instead of examining the books for the third time"; rtrue; } ! rule 403
-        if (R == R_856) { print "Instead of examining the wedding picture for the first time"; rtrue; } ! rule 404
-        if (R == R_857) { print "Instead of examining the paper for the first time"; rtrue; } ! rule 405
-        if (R == R_858) { print "Instead of examining the Captain's Log for the first time"; rtrue; } ! rule 406
-        if (R == R_859) { print "After wearing the leather coat"; rtrue; } ! rule 407
-        if (R == R_860) { print "Before taking off the leather coat"; rtrue; } ! rule 408
-        if (R == R_861) { print "When play begins"; rtrue; } ! rule 409
+        if (R == R_840) { print "Before touching the bed"; rtrue; } ! rule 388
+        if (R == R_841) { print "Before touching the pillow"; rtrue; } ! rule 389
+        if (R == R_842) { print "Before touching the quilt"; rtrue; } ! rule 390
+        if (R == R_843) { print "Before touching the light switch"; rtrue; } ! rule 391
+        if (R == R_844) { print "Before touching the player"; rtrue; } ! rule 392
+        if (R == R_845) { print "Before listening"; rtrue; } ! rule 393
+        if (R == R_846) { print "Before smelling"; rtrue; } ! rule 394
+        if (R == R_847) { print "Instead of taking the revolver pistol for the first time"; rtrue; } ! rule 395
+        if (R == R_848) { print "Instead of examining the revolver pistol"; rtrue; } ! rule 396
+        if (R == R_849) { print "Instead of taking the books"; rtrue; } ! rule 397
+        if (R == R_850) { print "Instead of taking the wedding picture"; rtrue; } ! rule 398
+        if (R == R_851) { print "Instead of taking the paper"; rtrue; } ! rule 399
+        if (R == R_852) { print "Instead of examining the books for the first time"; rtrue; } ! rule 400
+        if (R == R_853) { print "Instead of examining the books for the second time"; rtrue; } ! rule 401
+        if (R == R_854) { print "Instead of examining the books for the third time"; rtrue; } ! rule 402
+        if (R == R_855) { print "Instead of examining the wedding picture for the first time"; rtrue; } ! rule 403
+        if (R == R_856) { print "Instead of examining the paper for the first time"; rtrue; } ! rule 404
+        if (R == R_857) { print "Instead of examining the Captain's Log for the first time"; rtrue; } ! rule 405
+        if (R == R_858) { print "After wearing the leather coat"; rtrue; } ! rule 406
+        if (R == R_859) { print "Before taking off the leather coat"; rtrue; } ! rule 407
+        if (R == R_860) { print "When play begins"; rtrue; } ! rule 408
 
 		print "(nameless rule at address ", R, ")";
 	}

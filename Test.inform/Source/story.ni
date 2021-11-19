@@ -270,28 +270,25 @@ Understand "metal lever" as light switch.
 Carry out switching off the light switch: 
 	if the steel door is closed:
 		now the Cabin is dark.
+
 Carry out switching on the light switch: 
 	if know_switch is 0:
 		if the player is on the bed:
 			now the player is in the Cabin;
 	now the Cabin is lighted.
+
 Report switching on the light switch:
 	if know_switch is 0:
 		say "[paragraph break]As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.";
 		now know_switch is 1;
 		stop the action.
+
 Carry out opening the steel door: now the Cabin is lighted.
 Carry out closing the steel door:
 	if the light switch is switched off:
 		now the Cabin is dark.
 
 After deciding the scope of the player when the location is the Cabin:
-	place the light switch in scope;
-	place the bed in scope;
-	place the steel door in scope;
-	place the wall in scope;
-
-After :
 	place the light switch in scope;
 	place the bed in scope;
 	place the steel door in scope;
