@@ -652,28 +652,11 @@
     has to perform an exiting action.<p><hr><p><b>Typed commands leading to this action</b><p>
     <p class="hangingin2">&quot;get in/on&quot;</p><p class="hangingin2">&quot;get in/into/on/onto [something]&quot;</p><p class="hangingin2">&quot;stand on [something]&quot;</p><p class="hangingin2">&quot;go/walk/run [something]&quot;</p><p class="hangingin2">&quot;go/walk/run into/in/inside/through [something]&quot;</p><p class="hangingin2">&quot;enter/cross&quot;</p><p class="hangingin2">&quot;enter/cross [something]&quot;</p><p class="hangingin2">&quot;sit on top of [something]&quot;</p><p class="hangingin2">&quot;sit on/in/inside [something]&quot;</p><p><b>Rules controlling this action</b></p><p>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter door into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2300(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('convert enter door into go rule');
-    }
-    </script>
-    <a href="javascript:pasteCode2300()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2301(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('The convert enter door into go rule is not listed in the check entering rulebook.[=0x000A=]');
-    }
-    </script>
-    <a href="javascript:pasteCode2301()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter compass direction into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2302(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('convert enter compass direction into go rule');
+        myProject.pasteCode('convert enter door into go rule');
     }
     </script>
     <a href="javascript:pasteCode2302()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -681,16 +664,16 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('The convert enter compass direction into go rule is not listed in the check entering rulebook.[=0x000A=]');
+        myProject.pasteCode('The convert enter door into go rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
     <a href="javascript:pasteCode2303()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's already entered rule</font>&nbsp;&nbsp;<script language="JavaScript">
+    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter compass direction into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2304(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule');
+        myProject.pasteCode('convert enter compass direction into go rule');
     }
     </script>
     <a href="javascript:pasteCode2304()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -698,32 +681,33 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s already entered rule is not listed in the check entering rulebook.[=0x000A=]');
+        myProject.pasteCode('The convert enter compass direction into go rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2305()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000124', 'plus1000124'); return false;"><img border=0 id="plus1000124" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
-    <div id="extra1000124" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"But [we]['re] already on [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2305()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's already entered rule</font>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2306(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (A)');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule');
     }
     </script>
-    <a href="javascript:pasteCode2306()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2306()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
     function pasteCode2307(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (A) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s already entered rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2307()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"But [we]['re] already in [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2307()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000124', 'plus1000124'); return false;"><img border=0 id="plus1000124" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
+    <div id="extra1000124" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"But [we]['re] already on [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2308(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (B)');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (A)');
     }
     </script>
     <a href="javascript:pasteCode2308()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -731,49 +715,49 @@
         var myProject = project();
 
         myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (A) is [=0x0022=]New text.[=0x0022=].');
+    }
+    </script>
+    <a href="javascript:pasteCode2309()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"But [we]['re] already in [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    function pasteCode2310(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (B)');
+    }
+    </script>
+    <a href="javascript:pasteCode2310()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2311(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule response (B) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2309()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2311()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's not enterable rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2310(code) {
+    function pasteCode2312(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule');
     }
     </script>
-    <a href="javascript:pasteCode2310()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2311(code) {
+    <a href="javascript:pasteCode2312()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2313(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s not enterable rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2311()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000125', 'plus1000125'); return false;"><img border=0 id="plus1000125" src=inform:/doc_images/responses.png></a>&nbsp;4</p>
+    <a href="javascript:pasteCode2313()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000125', 'plus1000125'); return false;"><img border=0 id="plus1000125" src=inform:/doc_images/responses.png></a>&nbsp;4</p>
     <div id="extra1000125" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] stand on."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2312(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (A)');
-    }
-    </script>
-    <a href="javascript:pasteCode2312()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2313(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (A) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2313()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] sit down on."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2314(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (B)');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (A)');
     }
     </script>
     <a href="javascript:pasteCode2314()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -781,15 +765,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (B) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (A) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2315()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] lie down on."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2315()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] sit down on."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2316(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (C)');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (B)');
     }
     </script>
     <a href="javascript:pasteCode2316()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -797,15 +781,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (C) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (B) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2317()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] enter."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2317()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] lie down on."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2318(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (D)');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (C)');
     }
     </script>
     <a href="javascript:pasteCode2318()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -813,83 +797,83 @@
         var myProject = project();
 
         myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (C) is [=0x0022=]New text.[=0x0022=].');
+    }
+    </script>
+    <a href="javascript:pasteCode2319()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"[regarding the noun][They're] not something [we] [can] enter."</span>&nbsp;&nbsp;<script language="JavaScript">
+    function pasteCode2320(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (D)');
+    }
+    </script>
+    <a href="javascript:pasteCode2320()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2321(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule response (D) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2319()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2321()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter closed containers rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2320(code) {
+    function pasteCode2322(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter closed containers rule');
     }
     </script>
-    <a href="javascript:pasteCode2320()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2321(code) {
+    <a href="javascript:pasteCode2322()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2323(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The can[=0x0027=]t enter closed containers rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2321()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000126', 'plus1000126'); return false;"><img border=0 id="plus1000126" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+    <a href="javascript:pasteCode2323()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000126', 'plus1000126'); return false;"><img border=0 id="plus1000126" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
     <div id="extra1000126" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [can't get] into the closed [noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2322(code) {
+    function pasteCode2324(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter closed containers rule response (A)');
     }
     </script>
-    <a href="javascript:pasteCode2322()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2323(code) {
+    <a href="javascript:pasteCode2324()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2325(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter closed containers rule response (A) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2323()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2325()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter if this exceeds carrying capacity rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2324(code) {
+    function pasteCode2326(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule');
     }
     </script>
-    <a href="javascript:pasteCode2324()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2325(code) {
+    <a href="javascript:pasteCode2326()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2327(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The can[=0x0027=]t enter if this exceeds carrying capacity rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2325()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000127', 'plus1000127'); return false;"><img border=0 id="plus1000127" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
+    <a href="javascript:pasteCode2327()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000127', 'plus1000127'); return false;"><img border=0 id="plus1000127" src=inform:/doc_images/responses.png></a>&nbsp;2</p>
     <div id="extra1000127" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[There] [are] no more room on [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2326(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (A)');
-    }
-    </script>
-    <a href="javascript:pasteCode2326()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2327(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (A) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2327()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[There] [are] no more room in [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2328(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (B)');
+        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (A)');
     }
     </script>
     <a href="javascript:pasteCode2328()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -897,83 +881,83 @@
         var myProject = project();
 
         myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (A) is [=0x0022=]New text.[=0x0022=].');
+    }
+    </script>
+    <a href="javascript:pasteCode2329()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[There] [are] no more room in [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    function pasteCode2330(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
+        myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (B)');
+    }
+    </script>
+    <a href="javascript:pasteCode2330()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2331(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter if this exceeds carrying capacity rule response (B) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2329()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2331()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter something carried rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2330(code) {
+    function pasteCode2332(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter something carried rule');
     }
     </script>
-    <a href="javascript:pasteCode2330()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2331(code) {
+    <a href="javascript:pasteCode2332()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2333(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The can[=0x0027=]t enter something carried rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2331()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000128', 'plus1000128'); return false;"><img border=0 id="plus1000128" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
+    <a href="javascript:pasteCode2333()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000128', 'plus1000128'); return false;"><img border=0 id="plus1000128" src=inform:/doc_images/responses.png></a>&nbsp;1</p>
     <div id="extra1000128" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [can] only get into something free-standing."</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2332(code) {
+    function pasteCode2334(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter something carried rule response (A)');
     }
     </script>
-    <a href="javascript:pasteCode2332()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2333(code) {
+    <a href="javascript:pasteCode2334()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2335(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('can[=0x0027=]t enter something carried rule response (A) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2333()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2335()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">implicitly pass through other barriers rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2334(code) {
+    function pasteCode2336(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('implicitly pass through other barriers rule');
     }
     </script>
-    <a href="javascript:pasteCode2334()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2335(code) {
+    <a href="javascript:pasteCode2336()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2337(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The implicitly pass through other barriers rule is not listed in the check entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2335()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000129', 'plus1000129'); return false;"><img border=0 id="plus1000129" src=inform:/doc_images/responses.png></a>&nbsp;5</p>
+    <a href="javascript:pasteCode2337()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000129', 'plus1000129'); return false;"><img border=0 id="plus1000129" src=inform:/doc_images/responses.png></a>&nbsp;5</p>
     <div id="extra1000129" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting off [the current home])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2336(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (A)');
-    }
-    </script>
-    <a href="javascript:pasteCode2336()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
-    function pasteCode2337(code) {
-        var myProject = project();
-
-        myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (A) is [=0x0022=]New text.[=0x0022=].');
-    }
-    </script>
-    <a href="javascript:pasteCode2337()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting out of [the current home])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2338(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (B)');
+        myProject.pasteCode('implicitly pass through other barriers rule response (A)');
     }
     </script>
     <a href="javascript:pasteCode2338()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -981,15 +965,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (B) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('implicitly pass through other barriers rule response (A) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2339()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting onto [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2339()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting out of [the current home])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2340(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (C)');
+        myProject.pasteCode('implicitly pass through other barriers rule response (B)');
     }
     </script>
     <a href="javascript:pasteCode2340()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -997,15 +981,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (C) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('implicitly pass through other barriers rule response (B) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2341()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting into [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2341()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting onto [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2342(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (D)');
+        myProject.pasteCode('implicitly pass through other barriers rule response (C)');
     }
     </script>
     <a href="javascript:pasteCode2342()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -1013,15 +997,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (D) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('implicitly pass through other barriers rule response (C) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2343()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;E&nbsp;&nbsp;</span> <span style="color: #000066;">"(entering [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2343()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"(getting into [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2344(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (E)');
+        myProject.pasteCode('implicitly pass through other barriers rule response (D)');
     }
     </script>
     <a href="javascript:pasteCode2344()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -1029,33 +1013,32 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('implicitly pass through other barriers rule response (E) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('implicitly pass through other barriers rule response (D) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2345()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
-    <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2345()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;E&nbsp;&nbsp;</span> <span style="color: #000066;">"(entering [the target])[command clarification break]"</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2346(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard entering rule');
+        myProject.pasteCode('implicitly pass through other barriers rule response (E)');
     }
     </script>
-    <a href="javascript:pasteCode2346()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    <a href="javascript:pasteCode2346()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
     function pasteCode2347(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('The standard entering rule is not listed in the carry out entering rulebook.[=0x000A=]');
+        myProject.pasteCode('implicitly pass through other barriers rule response (E) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2347()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-    <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard report entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2347()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2348(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule');
+        myProject.pasteCode('standard entering rule');
     }
     </script>
     <a href="javascript:pasteCode2348()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -1063,32 +1046,33 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('The standard report entering rule is not listed in the report entering rulebook.[=0x000A=]');
+        myProject.pasteCode('The standard entering rule is not listed in the carry out entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2349()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000131', 'plus1000131'); return false;"><img border=0 id="plus1000131" src=inform:/doc_images/responses.png></a>&nbsp;4</p>
-    <div id="extra1000131" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [get] onto [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2349()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard report entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2350(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (A)');
+        myProject.pasteCode('standard report entering rule');
     }
     </script>
-    <a href="javascript:pasteCode2350()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2350()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
     function pasteCode2351(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (A) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('The standard report entering rule is not listed in the report entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2351()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [get] into [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2351()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;&nbsp;<a href="#" onclick="showResp('extra1000131', 'plus1000131'); return false;"><img border=0 id="plus1000131" src=inform:/doc_images/responses.png></a>&nbsp;4</p>
+    <div id="extra1000131" style="display: none;"><p class="in2">&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;A&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [get] onto [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2352(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (B)');
+        myProject.pasteCode('standard report entering rule response (A)');
     }
     </script>
     <a href="javascript:pasteCode2352()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -1096,15 +1080,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (B) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('standard report entering rule response (A) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2353()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [get] into [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2353()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;B&nbsp;&nbsp;</span> <span style="color: #000066;">"[We] [get] into [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2354(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (C)');
+        myProject.pasteCode('standard report entering rule response (B)');
     }
     </script>
     <a href="javascript:pasteCode2354()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -1112,15 +1096,15 @@
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (C) is [=0x0022=]New text.[=0x0022=].');
+        myProject.pasteCode('standard report entering rule response (B) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2355()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [get] onto [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    <a href="javascript:pasteCode2355()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;C&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [get] into [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
     function pasteCode2356(code) {
         var myProject = project();
 
         myProject.selectView('source');
-        myProject.pasteCode('standard report entering rule response (D)');
+        myProject.pasteCode('standard report entering rule response (C)');
     }
     </script>
     <a href="javascript:pasteCode2356()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
@@ -1128,27 +1112,43 @@
         var myProject = project();
 
         myProject.selectView('source');
+        myProject.pasteCode('standard report entering rule response (C) is [=0x0022=]New text.[=0x0022=].');
+    }
+    </script>
+    <a href="javascript:pasteCode2357()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i><br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: #8080ff;">&nbsp;&nbsp;D&nbsp;&nbsp;</span> <span style="color: #000066;">"[The actor] [get] onto [the noun]."</span>&nbsp;&nbsp;<script language="JavaScript">
+    function pasteCode2358(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
+        myProject.pasteCode('standard report entering rule response (D)');
+    }
+    </script>
+    <a href="javascript:pasteCode2358()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i>&nbsp;<script language="JavaScript">
+    function pasteCode2359(code) {
+        var myProject = project();
+
+        myProject.selectView('source');
         myProject.pasteCode('standard report entering rule response (D) is [=0x0022=]New text.[=0x0022=].');
     }
     </script>
-    <a href="javascript:pasteCode2357()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
+    <a href="javascript:pasteCode2359()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>set</i></div>
     <p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">describe contents entered into rule</font>&nbsp;&nbsp;<script language="JavaScript">
-    function pasteCode2358(code) {
+    function pasteCode2360(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('describe contents entered into rule');
     }
     </script>
-    <a href="javascript:pasteCode2358()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-    function pasteCode2359(code) {
+    <a href="javascript:pasteCode2360()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+    function pasteCode2361(code) {
         var myProject = project();
 
         myProject.selectView('source');
         myProject.pasteCode('The describe contents entered into rule is not listed in the report entering rulebook.[=0x000A=]');
     }
     </script>
-    <a href="javascript:pasteCode2359()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+    <a href="javascript:pasteCode2361()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
     <br>Click on the speech-bubble icons to see the responses, or here to see all of them:&nbsp;<a href="#" onclick="showAllResp(); return false;"><img border=0 src=inform:/doc_images/responses.png></a>&nbsp;19</p>
     <!--CONTENT ENDS-->
     </font>

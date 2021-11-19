@@ -10632,10 +10632,10 @@ Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
  0 0 0 0 0 0 I146_steel_door 0 0 0 0 0 ! Exits from: I128_cabin
- I153_captain_s_chamber 0 0 I149_southern_hallway 0 0 0 I146_steel_door 0 0 0 0 ! Exits from: I147_northern_hallway
+ 0 0 0 I149_southern_hallway 0 0 0 I146_steel_door 0 0 0 0 ! Exits from: I147_northern_hallway
  I147_northern_hallway 0 0 I151_bunker_door 0 0 0 0 0 0 0 0 ! Exits from: I149_southern_hallway
  I151_bunker_door 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I152_engine_room
- 0 0 0 I147_northern_hallway 0 0 0 0 0 0 0 0 ! Exits from: I153_captain_s_chamber
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I153_captain_s_chamber
 ;
 
 Class VPH_Class;

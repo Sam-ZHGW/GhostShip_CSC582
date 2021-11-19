@@ -408,7 +408,7 @@ When play begins:
 	now the passcode of the books is a random number from 1001 to 9999;
 	if the passcode of the padlock is the passcode of the pistol, decrement the passcode of the books.
 
-The Captain's Chamber is a room. South of the Captain's Chamber is the hallway. North of the hallway is the Captain's Chamber.
+The Captain's Chamber is a room. [South of the Captain's Chamber is the hallway. North of the hallway is the Captain's Chamber.]
 The Chamber contains a wooden desk. On the wooden desk is the Captain's Log. The ssize of the Log is S1. The table is fixed in place. The description of the wooden desk is "[if not_broken of the item described is 1]TODO - Wooden Desk [otherwise]Shit."
 
 Test a with "switch on light switch / examine steel door / open steel door / look under bed / unlock drawer / open drawer/ take pistol".
