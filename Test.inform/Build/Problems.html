@@ -290,8 +290,8 @@
         <tr id="surround0">
             <td style="width:100%">
                 <!--HEADING BEGINS-->
-                <div class="headingboxSucceeded">
-                    <div class="headingtext">Report on Translation: Succeeded</div>
+                <div class="headingboxFailed">
+                    <div class="headingtext">Report on Translation: Failed</div>
                     <div class="headingrubric">Produced by Inform 7 (build 6M62)</div>
                 </div>
                 <!--HEADING ENDS-->
@@ -301,17 +301,20 @@
     <!--BANNER ENDS-->
     <table border="0" cellspacing="4" cellpadding="0" width=100%>
         <tr><td align="left" valign="top" width="110"><font size=2>
-            <img src=inform:/outcome_images/ni_succeeded@2x.png border=1 width=100 height=100>
+            <img src=inform:/outcome_images/ni_failed@2x.png border=1 width=100 height=100>
         &nbsp;&nbsp;&nbsp;&nbsp;</font></td><td align="left" valign="top"><font size=2>
         <!--HEADNOTE-->
         <p style="margin-top:0;">(Each time <b>Go</b> or <b>Replay</b> is clicked, Inform tries to translate the source text into a working story, and updates this report.)</p>
         <!--PROBLEMS BEGIN-->
-          The 5234-word source text has successfully been translated into a world with 5 rooms and 26 things, and the index has been brought up to date.</p>
+          <p class="hang"><b>Problem.</b>  You wrote 'Understand &quot;screw [something]&quot; as &quot;screw [something] with [something]&quot;' &nbsp;<a href="source:story.ni#line466"><img border=0 src=inform:/doc_images/Reveal.png></a>: but if 'understand ... as ...' gives the meaning as text then it must describe a single new token, so that 'Understand &quot;group four/five/six&quot; as &quot;[department]&quot;' is legal (defining a new token &quot;[department]&quot;, or adding to its definition if it already existed) but 'Understand &quot;take [thing]&quot; as &quot;drop [thing]&quot;' is not allowed, and would not make sense, because &quot;drop [thing]&quot; is a combination of two existing tokens - not a single new one.</p>
+
+        <p class="tightin2"><a href=inform:/doc265.html><img border=0 src=inform:/doc_images/help.png></a>&nbsp;<i>See the manual: 17.1 &gt; 17.1. Understand</i></p>
         <!--PROBLEMS END-->
         </font></td></tr>
     </table>
 
     <!--FOOTNOTE-->
+      <p class="in2">Because of this problem, the source could not be translated into a working game. (Correct the source text to remove the difficulty and click on Go once again.)</p>
 
     <!--CONTENT ENDS-->
     </font>
