@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-890"/>
+  <activeNode nodeId="node-994"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Test</command>
     <result xml:space="preserve">Trigger warning: This game deals with violence and suicidal contents.&#x000A;&#x000A;&#x000A;&#x000A;The Ghost Ship&#x000A;An Interactive Fiction by "INFORMational Wizards" Release along with a website&#x000A;Release 1 / Serial number 211120 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Total Darkness&#x000A;You wake up, from an unbearable headache, it is as if you've been through a terrible nightmare. But what is worse is that you seem to have lost a large portion of your memory. It is a strange feeling - names, languages and general knowledge, of these you know still, but you can't remember the most important things at this moment - where the hell are you. &#x000A;&#x000A;You open your eyes as the acute headache subsides but you can't see anything. It is the most overwhelming darkness ever - it was not merely the darkness that came out of absence of light, it was much more sinister, almost as if something behind the darkness is watching your every move. You stretch your eyes as wide as possible trying to capture the even dimmest glimmer of light but still nothing but blackness.&#x000A;&#x000A;You are certain that you're in some kind of a room, the quiet and stale air gives away. Even though you cannot see anything, your other four senses are alright - you can feel the pillow beneath your head and the soft, warm quilt over your body.&#x000A;&#x000A;&gt;</result>
@@ -1496,7 +1496,7 @@
   </item>
   <item nodeId="node-174">
     <command xml:space="preserve">test a</command>
-    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] wear coat&#x000A;(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;[3] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[4] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[5] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[6] unlock drawer with key&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[7] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[8] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.&#x000A;&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - 5475.&#x000A;&#x000A;You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;[9] shoot door&#x000A;(the steel door)&#x000A;You shoot the steel door.&#x000A;You raise the pistol and aim your shot, your hand steady and stable. The bullet blasts forth at sonic speed, hitting the padlock right in the center of mass. An ear-bleeding metallic impact sound and blinding sparks ensue. You see that the padlock is now completely destroyed.&#x000A;&#x000A;&gt;[10] open door&#x000A;As you've expected, you see the dimly lit hallway outside the steel door.&#x000A;&#x000A;&gt;[11] go to hallway&#x000A;(the northern hallway)&#x000A;You walk to the northern hallway.&#x000A;&#x000A;northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed.&#x000A;&#x000A;You can see a steel door and a hatch door here.&#x000A;&#x000A;&gt;[12] go south&#x000A;&#x000A;southern hallway&#x000A;This is the heart of the ship, you can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and big cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler. You can hear faint noises coming from the idle engines.&#x000A;&#x000A;&gt;[13] go south&#x000A;(first opening the bunker door)&#x000A;&#x000A;Engine room&#x000A;This is the heart of the ship, you can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and big cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler. You can hear faint noises coming from the idle engines.&#x000A;&#x000A;You can also see a welding unit, a workbench (on which is a broken screwdriver handle) and a control panel here.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] wear coat&#x000A;(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;[3] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[4] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[5] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[6] unlock drawer with key&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[7] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[8] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.&#x000A;&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - 5020.&#x000A;&#x000A;You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;[9] shoot door&#x000A;(the steel door)&#x000A;You shoot the steel door.&#x000A;You raise the pistol and aim your shot, your hand steady and stable. The bullet blasts forth at sonic speed, hitting the padlock right in the center of mass. An ear-bleeding metallic impact sound and blinding sparks ensue. You see that the padlock is now completely destroyed.&#x000A;&#x000A;&gt;[10] open door&#x000A;Now that the padlock is out of your way, you push the steel door open. As you've expected, you see the dimly lit hallway outside the steel door.&#x000A;&#x000A;&gt;[11] go to hallway&#x000A;(the northern hallway)&#x000A;You walk to the northern hallway.&#x000A;&#x000A;northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;[12] go south&#x000A;&#x000A;&#x000A;You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?&#x000A;&#x000A;southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;[13] go south&#x000A;(first opening the bunker door)&#x000A;&#x000A;Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can see a bunker door, a welding unit, a workbench (on which is a broken screwdriver handle) and a control panel here.&#x000A;&#x000A;&gt;[14] search under workbench&#x000A;You find the broken screwdriver head!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -1543,6 +1543,16 @@
       <child nodeId="node-879"/>
       <child nodeId="node-882"/>
       <child nodeId="node-883"/>
+      <child nodeId="node-891"/>
+      <child nodeId="node-895"/>
+      <child nodeId="node-906"/>
+      <child nodeId="node-909"/>
+      <child nodeId="node-911"/>
+      <child nodeId="node-912"/>
+      <child nodeId="node-913"/>
+      <child nodeId="node-933"/>
+      <child nodeId="node-954"/>
+      <child nodeId="node-987"/>
     </children>
   </item>
   <item nodeId="node-175">
@@ -3794,9 +3804,10 @@
     <command xml:space="preserve">look screw</command>
     <result xml:space="preserve">Six-lobed, star-patterned screw - a torx screw.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-880"/>
+      <child nodeId="node-926"/>
     </children>
   </item>
   <item nodeId="node-880">
@@ -3813,6 +3824,66 @@
     <result xml:space="preserve">Six-lobed, star-patterned screw - a torx screw.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
+  </item>
+  <item nodeId="node-926">
+    <command xml:space="preserve">touch screw</command>
+    <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-927"/>
+    </children>
+  </item>
+  <item nodeId="node-927">
+    <command xml:space="preserve">take screw</command>
+    <result xml:space="preserve">That seems to be a part of the control panel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-928"/>
+    </children>
+  </item>
+  <item nodeId="node-928">
+    <command xml:space="preserve">weld head to handle</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;You take the welded screwdriver into your pocket. But you know that it won't work on any screw because its tip was sabotaged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-929"/>
+    </children>
+  </item>
+  <item nodeId="node-929">
+    <command xml:space="preserve">look screw</command>
+    <result xml:space="preserve">Six-lobed, star-patterned screw - a torx screw.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-930"/>
+    </children>
+  </item>
+  <item nodeId="node-930">
+    <command xml:space="preserve">weld screw with screwdriver</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-931"/>
+    </children>
+  </item>
+  <item nodeId="node-931">
+    <command xml:space="preserve">look screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-932"/>
+    </children>
+  </item>
+  <item nodeId="node-932">
+    <command xml:space="preserve">look screwdriver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
   </item>
   <item nodeId="node-882">
     <command xml:space="preserve">take screwdriver</command>
@@ -3886,6 +3957,557 @@
   <item nodeId="node-890">
     <command xml:space="preserve">weld key with handle</command>
     <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-891">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-892"/>
+    </children>
+  </item>
+  <item nodeId="node-892">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-893"/>
+    </children>
+  </item>
+  <item nodeId="node-893">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;As you try to turn on the switch, you hear a small cracking noise, and the light above your head flickers even more dimly. Better just leave it be for now.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-894"/>
+    </children>
+  </item>
+  <item nodeId="node-894">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;As you try to turn on the switch, you hear a small cracking noise, and the light above your head flickers even more dimly. Better just leave it be for now.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-895">
+    <command xml:space="preserve">search under workbench</command>
+    <result xml:space="preserve">You find the broken screwdriver head!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-896"/>
+    </children>
+  </item>
+  <item nodeId="node-896">
+    <command xml:space="preserve">weld head to handle</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-897"/>
+    </children>
+  </item>
+  <item nodeId="node-897">
+    <command xml:space="preserve">weld handle to head</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-898"/>
+    </children>
+  </item>
+  <item nodeId="node-898">
+    <command xml:space="preserve">take hed</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-899"/>
+    </children>
+  </item>
+  <item nodeId="node-899">
+    <command xml:space="preserve">take head</command>
+    <result xml:space="preserve">You already have that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-900"/>
+    </children>
+  </item>
+  <item nodeId="node-900">
+    <command xml:space="preserve">weld handle with head</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-901"/>
+    </children>
+  </item>
+  <item nodeId="node-901">
+    <command xml:space="preserve">weld screwdriver handle to head</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-902"/>
+    </children>
+  </item>
+  <item nodeId="node-902">
+    <command xml:space="preserve">weld broken screwdriver handle to head</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-903"/>
+    </children>
+  </item>
+  <item nodeId="node-903">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a broken screwdriver head&#x000A;  a revolver pistol&#x000A;  a brass key&#x000A;  a leather coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-904"/>
+    </children>
+  </item>
+  <item nodeId="node-904">
+    <command xml:space="preserve">take handle</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-905"/>
+    </children>
+  </item>
+  <item nodeId="node-905">
+    <command xml:space="preserve">weld head to handle</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-906">
+    <command xml:space="preserve">weld handle to head</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;Wow!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-907"/>
+    </children>
+  </item>
+  <item nodeId="node-907">
+    <command xml:space="preserve">weld head to handle</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-908"/>
+    </children>
+  </item>
+  <item nodeId="node-908">
+    <command xml:space="preserve">weld broken screwdriver handle to head</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-909">
+    <command xml:space="preserve">weld head to handle</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;You take the welded screwdriver into your pocket. But you know that it won't work on any screw because its tip was sabotaged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-910"/>
+      <child nodeId="node-915"/>
+    </children>
+  </item>
+  <item nodeId="node-910">
+    <command xml:space="preserve">weld head to broken screwdriver handle</command>
+    <result xml:space="preserve">You don't possess any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-915">
+    <command xml:space="preserve">screw the screw with screwdriver</command>
+    <result xml:space="preserve">You try to screw the torx screw on the panel with the screwdriver that you fixed, but the tip is sabotaged and no longer fit into the torx screw. Is there any other way to make it work?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-916"/>
+    </children>
+  </item>
+  <item nodeId="node-916">
+    <command xml:space="preserve">weld screw with screwdriver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-917"/>
+    </children>
+  </item>
+  <item nodeId="node-917">
+    <command xml:space="preserve">weld screw with welded screwdriver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-918"/>
+    </children>
+  </item>
+  <item nodeId="node-918">
+    <command xml:space="preserve">weld screw to welded screwdriver</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-919"/>
+    </children>
+  </item>
+  <item nodeId="node-919">
+    <command xml:space="preserve">touch screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-920"/>
+    </children>
+  </item>
+  <item nodeId="node-920">
+    <command xml:space="preserve">touch the screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-921"/>
+    </children>
+  </item>
+  <item nodeId="node-921">
+    <command xml:space="preserve">look screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-922"/>
+    </children>
+  </item>
+  <item nodeId="node-922">
+    <command xml:space="preserve">inv</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a welded screwdriver&#x000A;  a revolver pistol&#x000A;  a brass key&#x000A;  a leather coat (being worn)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-923"/>
+    </children>
+  </item>
+  <item nodeId="node-923">
+    <command xml:space="preserve">look control panel</command>
+    <result xml:space="preserve">A electrical control panel with buttons and levers all over. There are a few instruments here and there, you can see that the oil gauge is half full. The most important "Engine Start" button is covered by a steel protective shell with a big screw holding it in place.&#x000A;&#x000A;&#x000A;&#x000A;After reading the instruments, you realize that the ship is currently running on auxiliary power batteries, if you want to restore power to the ship, you'll have to reignite the main engine.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-924"/>
+    </children>
+  </item>
+  <item nodeId="node-924">
+    <command xml:space="preserve">look screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-925"/>
+    </children>
+  </item>
+  <item nodeId="node-925">
+    <command xml:space="preserve">open shell</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-911">
+    <command xml:space="preserve">weld hand to handle</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-912">
+    <command xml:space="preserve">look protective shell</command>
+    <result xml:space="preserve">You see nothing special about the protective shell.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-913">
+    <command xml:space="preserve">flip button</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-914"/>
+    </children>
+  </item>
+  <item nodeId="node-914">
+    <command xml:space="preserve">open shell</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-933">
+    <command xml:space="preserve">weld head with handle</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.&#x000A;&#x000A;You take the welded screwdriver into your pocket. But you know that it won't work on any screw because its tip was sabotaged.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-934"/>
+      <child nodeId="node-944"/>
+    </children>
+  </item>
+  <item nodeId="node-934">
+    <command xml:space="preserve">weld screw with screwdriver</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. You successfully welded the screwdriver with the screw.&#x000A;&#x000A;You remove the screw from the shell, now the shell is no longer locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-935"/>
+    </children>
+  </item>
+  <item nodeId="node-935">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can also see a strange screwdriver, a welding unit, a workbench and a control panel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-936"/>
+    </children>
+  </item>
+  <item nodeId="node-936">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can also see a strange screwdriver, a welding unit, a workbench and a control panel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-937"/>
+    </children>
+  </item>
+  <item nodeId="node-937">
+    <command xml:space="preserve">look strange screwdriver</command>
+    <result xml:space="preserve">Through ingenuity, you welded the screwdriver's broken tip to the screw and removed the screw from the panel.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-938"/>
+    </children>
+  </item>
+  <item nodeId="node-938">
+    <command xml:space="preserve">open shell</command>
+    <result xml:space="preserve">You open the protective shell, revealing a button.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-939"/>
+    </children>
+  </item>
+  <item nodeId="node-939">
+    <command xml:space="preserve">flip button</command>
+    <result xml:space="preserve">You switch the button on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-940"/>
+    </children>
+  </item>
+  <item nodeId="node-940">
+    <command xml:space="preserve">hit button</command>
+    <result xml:space="preserve">Violence isn't the answer to this one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-941"/>
+    </children>
+  </item>
+  <item nodeId="node-941">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-942"/>
+    </children>
+  </item>
+  <item nodeId="node-942">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-943"/>
+    </children>
+  </item>
+  <item nodeId="node-943">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;As you turn on the switch, you hear a small cracking noise, and the light above your head flickers even more dimly. Better just leave it be for now.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-944">
+    <command xml:space="preserve">weld screwdriver with screw</command>
+    <result xml:space="preserve">This is a bad idea.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-945"/>
+    </children>
+  </item>
+  <item nodeId="node-945">
+    <command xml:space="preserve">weld screw with screwdriver</command>
+    <result xml:space="preserve">You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. You successfully welded the screwdriver with the screw.&#x000A;&#x000A;You remove the screw from the shell, now the shell is no longer locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-946"/>
+    </children>
+  </item>
+  <item nodeId="node-946">
+    <command xml:space="preserve">look screw</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-947"/>
+    </children>
+  </item>
+  <item nodeId="node-947">
+    <command xml:space="preserve">look shell</command>
+    <result xml:space="preserve">You see nothing special about the protective shell.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-948"/>
+    </children>
+  </item>
+  <item nodeId="node-948">
+    <command xml:space="preserve">examine shell</command>
+    <result xml:space="preserve">You see nothing special about the protective shell.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-949"/>
+    </children>
+  </item>
+  <item nodeId="node-949">
+    <command xml:space="preserve">open shell</command>
+    <result xml:space="preserve">You open the protective shell, revealing a button.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-950"/>
+    </children>
+  </item>
+  <item nodeId="node-950">
+    <command xml:space="preserve">flip button</command>
+    <result xml:space="preserve">You hit the button. Slowly the engine comes to life. The lights above begin to shine more brightly.&#x000A;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-951"/>
+    </children>
+  </item>
+  <item nodeId="node-951">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-952"/>
+    </children>
+  </item>
+  <item nodeId="node-952">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-953"/>
+    </children>
+  </item>
+  <item nodeId="node-953">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;The door slowly creaks open, and you can finally go to the upper deck. &#x000A;&#x000A;You searched the ship thoroughly and found nobody. The crew's gone, vanished without a trace. Desperately, You tried to sail the ship to the nearest harbour. As you push the throttle to maximum, you can hear the engines roaring in the back of the ship, yet you cannot feel the ship has moved even one inch.&#x000A;&#x000A;Confused, you turn on the big searchlights, that's the moment you see THE THING through the slanted windows of the bridge...&#x000A;&#x000A;&#x000A;&#x000A;    *** The MV Valiant was sighted near the coast of Nova Scotia several days later. The only remaining crew member on board was the first mate, former Lieutenant Commander of the Royal Navy. According to the coast guard who questioned him, he seemed a bit psychotic, and insisted that he had no idea about the whereabouts of the rest of the crew members, instead he told a story of a giant monster of supernatural powers. Nobody believed it, of course. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-954">
+    <command xml:space="preserve">shoot shell</command>
+    <result xml:space="preserve">You press the trigger but nothing happens, apparently you're out of ammunition.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-987">
+    <command xml:space="preserve">shoot welding unit</command>
+    <result xml:space="preserve">You shoot the welding unit.&#x000A;You shoot at the welding unit, as the sparks generated from the bullet penetrating the tank making contact with the escaping high-pressure gas, a huge explosion ensues, then the flame engulfs the entire room.&#x000A;&#x000A;&#x000A;&#x000A;    *** Several days later, a cargo ship found the MV Valiant adrifting with the gulf stream. After repeated hailing with no response, the crew decided to approach the ship and investigate. To the crew's horror, there's not a single soul on board the ship. There was no sign of violence or ruination, nor any blood splatter or scortch mark. In a panic, the crew fled the ship and drove away as fast as they can. That was the last time men have ever laid their eyes upon the MV Valiant, for every subsequent search and rescue attempts ended in utter failure. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-988"/>
+    </children>
+  </item>
+  <item nodeId="node-988">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Engine room&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-989"/>
+    </children>
+  </item>
+  <item nodeId="node-989">
+    <command xml:space="preserve">shoot screw</command>
+    <result xml:space="preserve">You shoot the screw.&#x000A;You raise the pistol and aim your shot. As you pull the trigger, the howling bullet exits the chamber and flies towards the screw. With pinpoint accuracy, the bullet hit the screw with a thundering noise.&#x000A;&#x000A;But as you look more closely, you find that the screw is still fixed in place if not embedded a bit deeper than before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-990"/>
+    </children>
+  </item>
+  <item nodeId="node-990">
+    <command xml:space="preserve">shoot shell</command>
+    <result xml:space="preserve">You shoot the protective shell.&#x000A;You raise the pistol and aim your shot. As you pull the trigger, The bullet blasts forth, penetrates the metal shell and hit the button below. Electrical noises ensue, and slowly the engine comes to life. The lights above begin to shine more brightly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-991"/>
+    </children>
+  </item>
+  <item nodeId="node-991">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-992"/>
+    </children>
+  </item>
+  <item nodeId="node-992">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-993"/>
+    </children>
+  </item>
+  <item nodeId="node-993">
+    <command xml:space="preserve">go n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-994"/>
+    </children>
+  </item>
+  <item nodeId="node-994">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;The door slowly creaks open, and you can finally go to the upper deck. &#x000A;&#x000A;You searched the ship thoroughly and found nobody. The crew's gone, vanished without a trace. Desperately, You tried to sail the ship to the nearest harbour. As you push the throttle to maximum, you can hear the engines roaring in the back of the ship, yet you cannot feel the ship has moved even one inch.&#x000A;&#x000A;Confused, you turn on the big searchlights, that's the moment you see THE THING through the slanted windows of the bridge...&#x000A;&#x000A;&#x000A;&#x000A;    *** The MV Valiant was sighted near the coast of Nova Scotia several days later. The only remaining crew member on board was the first mate, former Lieutenant Commander of the Royal Navy. According to the coast guard who questioned him, he seemed a bit psychotic, and insisted that he had no idea about the whereabouts of the rest of the crew members, instead he told a story of a giant monster of supernatural powers. Nobody believed it, of course. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
@@ -5845,6 +6467,7 @@
       <child nodeId="node-694"/>
       <child nodeId="node-710"/>
       <child nodeId="node-868"/>
+      <child nodeId="node-955"/>
     </children>
   </item>
   <item nodeId="node-652">
@@ -6427,6 +7050,291 @@
   <item nodeId="node-868">
     <command xml:space="preserve">wear jacket</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-955">
+    <command xml:space="preserve">look under bed</command>
+    <result xml:space="preserve">You find the brass key!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-956"/>
+    </children>
+  </item>
+  <item nodeId="node-956">
+    <command xml:space="preserve">open drawer with brass key</command>
+    <result xml:space="preserve">You unlock the drawer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-957"/>
+    </children>
+  </item>
+  <item nodeId="node-957">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-958"/>
+    </children>
+  </item>
+  <item nodeId="node-958">
+    <command xml:space="preserve">take pistol</command>
+    <result xml:space="preserve">An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.&#x000A;&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - 6033.&#x000A;&#x000A;You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-959"/>
+    </children>
+  </item>
+  <item nodeId="node-959">
+    <command xml:space="preserve">dial padlock to 8750</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-960"/>
+    </children>
+  </item>
+  <item nodeId="node-960">
+    <command xml:space="preserve">look books</command>
+    <result xml:space="preserve">You quickly skim through the book names, some of them sound quite familiar to you. You're quite convinced that you've read them somewhere sometime, but you can't remember any detail regarding any of the books, at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-961"/>
+    </children>
+  </item>
+  <item nodeId="node-961">
+    <command xml:space="preserve">look books</command>
+    <result xml:space="preserve">You pick up a few and flick through them as you check if there's anything worth noting, but you found nothing particualrly interesting to you. Maybe take another closer look?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-962"/>
+    </children>
+  </item>
+  <item nodeId="node-962">
+    <command xml:space="preserve">look books</command>
+    <result xml:space="preserve">One particular book piques your interest - "Folktales of the Great Old Ones". As you read through it, you see your fragmented memories of yore flying by before your eyes - your childhood fantasies about big bad monsters roaming the ancient Earth, fighting each other for their own agenda. A four-digit code emerges from deep within your memory. - 1350&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-963"/>
+    </children>
+  </item>
+  <item nodeId="node-963">
+    <command xml:space="preserve">dial padlock to 3112</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-964"/>
+    </children>
+  </item>
+  <item nodeId="node-964">
+    <command xml:space="preserve">look picture</command>
+    <result xml:space="preserve">A wedding picture of a happy couple in a decorated wooden frame. The man in the picture looks handsome and confident in his military uniform. You recognize the man in the picture is actually you.&#x000A;You see a hand-written 4-digit number written in the back of the picture - 9507.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-965"/>
+    </children>
+  </item>
+  <item nodeId="node-965">
+    <command xml:space="preserve">dial padlock to 8469</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-966"/>
+    </children>
+  </item>
+  <item nodeId="node-966">
+    <command xml:space="preserve">look papers</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-967"/>
+    </children>
+  </item>
+  <item nodeId="node-967">
+    <command xml:space="preserve">look paper</command>
+    <result xml:space="preserve">A few paper files concerning details of the ship - MV Valiant, its crew member, cargo and the current course. You see your name under the title First Mate.&#x000A;You seem to recall a certain passcode - 4075.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-968"/>
+    </children>
+  </item>
+  <item nodeId="node-968">
+    <command xml:space="preserve">dial padlock to 2562</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-969"/>
+    </children>
+  </item>
+  <item nodeId="node-969">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-970"/>
+    </children>
+  </item>
+  <item nodeId="node-970">
+    <command xml:space="preserve">go to hallway</command>
+    <result xml:space="preserve">(the northern hallway)&#x000A;You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-971"/>
+    </children>
+  </item>
+  <item nodeId="node-971">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-972"/>
+    </children>
+  </item>
+  <item nodeId="node-972">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-973"/>
+    </children>
+  </item>
+  <item nodeId="node-973">
+    <command xml:space="preserve">dial padlock to 4075</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-974"/>
+    </children>
+  </item>
+  <item nodeId="node-974">
+    <command xml:space="preserve">dial padlock to 9507</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-975"/>
+    </children>
+  </item>
+  <item nodeId="node-975">
+    <command xml:space="preserve">dial padlock to 1350</command>
+    <result xml:space="preserve">The padlock clicks unlocked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-976"/>
+    </children>
+  </item>
+  <item nodeId="node-976">
+    <command xml:space="preserve">open steel door</command>
+    <result xml:space="preserve">Now that the padlock is out of your way, you push the steel door open. As you've expected, you see the dimly lit hallway outside the steel door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-977"/>
+    </children>
+  </item>
+  <item nodeId="node-977">
+    <command xml:space="preserve">go hallway</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-978"/>
+    </children>
+  </item>
+  <item nodeId="node-978">
+    <command xml:space="preserve">go to hallway</command>
+    <result xml:space="preserve">(the northern hallway)&#x000A;You walk to the northern hallway.&#x000A;&#x000A;northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-979"/>
+    </children>
+  </item>
+  <item nodeId="node-979">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?&#x000A;&#x000A;southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-980"/>
+    </children>
+  </item>
+  <item nodeId="node-980">
+    <command xml:space="preserve">open bunker door</command>
+    <result xml:space="preserve">You open the bunker door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-981"/>
+    </children>
+  </item>
+  <item nodeId="node-981">
+    <command xml:space="preserve">go through bunker door</command>
+    <result xml:space="preserve">Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can see a bunker door, a welding unit, a workbench (on which is a broken screwdriver handle) and a control panel here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-982"/>
+    </children>
+  </item>
+  <item nodeId="node-982">
+    <command xml:space="preserve">look bunker door</command>
+    <result xml:space="preserve">Bulky steel bunker door, doesn't seem to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-983"/>
+    </children>
+  </item>
+  <item nodeId="node-983">
+    <command xml:space="preserve">shoot shell</command>
+    <result xml:space="preserve">You shoot the protective shell.&#x000A;You raise the pistol and aim your shot. As you pull the trigger, The bullet blasts forth, penetrates the metal shell and hit the button below. Electrical noises ensue, and slowly the engine comes to life. The lights above begin to shine more brightly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-984"/>
+    </children>
+  </item>
+  <item nodeId="node-984">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-985"/>
+    </children>
+  </item>
+  <item nodeId="node-985">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-986"/>
+    </children>
+  </item>
+  <item nodeId="node-986">
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">(the control switch)&#x000A;As you turn on the switch, you hear a small cracking noise, and the light above your head flickers even more dimly. Better just leave it be for now.&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>

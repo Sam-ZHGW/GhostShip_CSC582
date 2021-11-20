@@ -78,6 +78,8 @@ The desc_2 is a number which varies. The desc_2 is initially 0.
 The desc_3 is a number which varies. The desc_3 is initially 0.
 The desc_4 is a number which varies. The desc_4 is initially 0.
 
+The power_on is a number which varies. The power_on is initially 0.
+
 The carrying capacity of the player is 2.
 Understand the command "access" as "open".
 Understand "grope for [thing]" as touching.
@@ -111,36 +113,6 @@ Instead of inserting something into a container:
 		now the noun is inside the second noun;
 		say "You put [noun] into [the second noun].".
 
-[----------------------------------Welding Action----------------------------------------]
-Welding is an action applying to one carried thing and one thing.
-Before welding something:
-	if the noun is the second noun:
-		instead say "You can't do this.";
-	if the welding unit is not in the location:
-		instead say "You don't have any tool to perform welding.";
-	if the noun is not carried:
-		instead say "You don't possess any such thing.";
-	if the second noun is not touchable:
-		instead say "You can't see any such thing."
-		
-Carry out welding:
-	if the second noun is touchable and the actor has the noun:
-		if the noun is broken screwdriver handle and the second noun is broken screwdriver head:
-			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.";
-			now the noun is nowhere;
-			now the second noun is nowhere;
-			now the welded screwdriver is on the workbench;
-			try taking the welded screwdriver;
-		if the noun is broken screwdriver head and the second noun is broken screwdriver handle:
-			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.";
-			now the noun is nowhere;
-			now the second noun is nowhere;
-			now the welded screwdriver is on the workbench;
-			try taking the welded screwdriver;
-		otherwise say "This is a bad idea."
-
-Understand "weld [something] with [something]" as welding. 
-Understand "weld [something] to [something]" as welding. 
 [----------------------------------Reload Action----------------------------------------]
 Reloading is an action applying to one carried thing and one carried thing.
 Before reloading something:
@@ -177,7 +149,7 @@ Check shooting:
 		instead say "You can't see such thing.";
 	if the noun is a room:
 		instead say "You can't shoot a room";
-	if the noun is not the steel door and the noun is not the padlock and the noun is not the window and the noun is not the player and the noun is not the screw and the noun is not the welding unit:
+	if the noun is not the steel door and the noun is not the padlock and the noun is not the window and the noun is not the player and the noun is not the screw and the noun is not the welding unit and the noun is not the screw and the noun is not the protective shell:
 		instead say "Why do you want to shoot [the noun]?";
 		
 Carry out shooting:
@@ -189,6 +161,12 @@ Carry out shooting:
 			if the noun is the steel door or the noun is the padlock:
 				say "You raise the pistol and aim your shot, your hand steady and stable. The bullet blasts forth at sonic speed, hitting the padlock right in the center of mass. An ear-bleeding metallic impact sound and blinding sparks ensue. You see that the padlock is now completely destroyed.";
 				now not_broken of padlock is 0;
+			if the noun is the screw:
+				say "You raise the pistol and aim your shot. As you pull the trigger, the howling bullet exits the chamber and flies towards the screw. With pinpoint accuracy, the bullet hit the screw with a thundering noise.[paragraph break]But as you look more closely, you find that the screw is still fixed in place if not embedded a bit deeper than before.";
+			if the noun is the protective shell:
+				say "You raise the pistol and aim your shot. As you pull the trigger, The bullet blasts forth, penetrates the metal shell and hit the button below. Electrical noises ensue, and slowly the engine comes to life. The lights above begin to shine more brightly.";
+				now the button is switched on;
+				now the power_on is 1;
 			if the noun is the player:
 				end the story saying "Several days later, a cargo ship found the MV Valiant adrifting with the gulf stream. After repeated hailing with no response, the crew decided to approach the ship and investigate. To the crew's horror, there's not a single soul on board the ship. There was no sign of violence or ruination, nor any blood splatter or scortch mark. In a panic, the crew fled the ship and drove away as fast as they can. That was the last time men have ever laid their eyes upon the MV Valiant, for every subsequent search and rescue attempts ended in utter failure.";
 			if the noun is the porthole window:
@@ -228,7 +206,7 @@ Instead of opening the steel door:
 		say "You cannot force open the door while there's a sturdy padlock holding it in place.";
 	otherwise:
 		now the steel door is open;
-		say "As you've expected, you see the dimly lit hallway outside the steel door.".
+		say "Now that the padlock is out of your way, you push the steel door open. As you've expected, you see the dimly lit hallway outside the steel door.".
 
 [----------------------------------Read Action----------------------------------------]
 Understand the command "read" as something new. 
@@ -261,13 +239,15 @@ Every turn:
 [ ---------------------------------   Backdrop  -----------------------------------------]
 The wall is a backdrop. It is everywhere.
 Instead of touching the wall:
+	if the player is on the bed:
+		say "Your hand touches the cold steel wall near the bed, your finger tip sweeps across the wall surface, it is coarse and unfriendly, yet you feel a strange sense of affinity that you cannot quite explain.";
+	otherwise:
+		say "Your hand touches the cold steel wall, but you feel nothing special about it."
+[
 	if the player is in the Cabin:
 		say "Your hand touches the cold steel wall. you can feel the very slight vibration repeating sporadically, some kind of machine is running not very faraway.";
 	otherwise if the player is in the hallway:
-		say "Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.";
-	otherwise if the player is on the bed:
-		say "Your hand touches the cold steel wall near the bed, your finger tip sweeps across the wall surface, it is coarse and unfriendly, yet you feel a strange sense of affinity that you cannot quite explain."
-		
+		say "Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.";]
 [ ---------------------------------Room Setup -----------------------------------------]
 [ -----------------------------------------------------------------------------------------]
 The player is on the bed.
@@ -301,7 +281,7 @@ A closet is in the Cabin. It is fixed in place. It is a closed container. It is 
 A porthole window is in the Cabin. It is fixed in place. The description of the window is "[if not_broken of the item described is 1] A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it, it's pitch black outside - you can't even see the moon let alone a single star. Even though the diameter could technically allow a person to crawl through, the window itself is not designed to be opened. [otherwise]Real shit.".
 A brass key is under the bed. The description of the brass key is "An old key made of brass."
 A desk is in the Cabin. It is fixed in place. It is a supporter. A wedding picture is on the desk. the wedding picture is fixed in place. The wedding picture has a number called passcode. The description of the desk is "A nice sturdy wooden desk modified to be fixed in place to prevent it from moving during stormy weather. A built-in drawer with a keyhole is below its working surface."
-The drawer is part of the desk. It is a closed, lockable and locked container. It is fixed in place. The description of the drawer is "[if not_broken of the item described is 1]A sturdy drawer with a built-in keyhole in the front. [otherwise]Shit.". A revolver pistol is inside the drawer. The revolver pistol has a number called passcode. The ssize of the pistol is S1. The brass key unlocks the drawer. The revolver pistol has a number called bullet. The bullet of revolver pistol is 1. The ssize of the drawer is S2.
+The drawer is part of the desk. It is a closed, lockable and locked container. It is fixed in place. The description of the drawer is "[if not_broken of the item described is 1]A sturdy drawer with a built-in keyhole in the front. [otherwise]Shit.". A revolver pistol is inside the drawer. The revolver pistol has a number called passcode. The ssize of the pistol is S1. The brass key unlocks the drawer. The revolver pistol has a number called bullet. The bullet of revolver pistol is 21. The ssize of the drawer is S2.
 A light switch is inside the cabin. It is scenery. It is a switched off device. The description of the light switch is "[if not_broken of the item described is 1]A small metal lever switch screwed to the wall. [otherwise]Shit."
 Understand "metal lever" as light switch.
 Carry out switching off the light switch: 
@@ -429,26 +409,106 @@ Before taking off the leather coat:
 The steel door is a door. The northern hallway is east of the steel door. The steel door is east of the Cabin and west of the northern hallway. The description of the steel door is "This is just a typical steel door on a military vessel - heavy and sturdy.[if not_broken of the item described is 1] You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.".
 understand "turn padlock to [any number]" as a mistake ("To open the padlock, try DIAL PADLOCK TO 4 digit number.").
 The padlock is part of the steel door. The padlock is scenery. The padlock has a number called passcode. The description of the padlock is "[if not_broken of the item described is 1]Bulky combination padlock with 4 digits, you can [bold type]dial it to[roman type] any 4 digit number. Apparently someone put it on there, but who?[otherwise]This padlock cannot stop you now.".
-
 [---------------------------------------------------Hallway-------------------------------------------------------]
-The northern hallway is a room. "Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed."
+The northern hallway is a room. The description of the hallway is "Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet."
+The control switch is in the hallway. The control switch is a switched off device. The description of the control switch is "A control switch used to control the hatch door."
+Carry out switching off the control switch:
+	say "Nothing happens.";
+	now the control switch is switched off.
+
+Carry out switching on the control switch: 
+	if power_on is 0:
+		instead say "As you turn on the switch, you hear a small cracking noise, and the light above your head flickers even more dimly. Better just leave it be for now.";
+	otherwise:
+		say "The door slowly creaks open, and you can finally go to the upper deck. [paragraph break]You searched the ship thoroughly and found no one except yourself. The crew's gone, vanished without a trace. You tried to use radio to contact the coast guards, military or any passing ship, but there's nothing but the sound of buzzing static noise in the radio waves. Desperately, You tried to sail the ship to the nearest harbour alone. As you push the throttle to maximum, you can hear the engines roaring and the propellers rotating in the back of the ship, yet you cannot feel the ship is moving at all.[paragraph break]Confused, you turn on the big searchlights, and that's the moment you see the Thing through the slanted windows of the bridge...";
+		end the story saying "The MV Valiant was sighted near the coast of Nova Scotia several days later. The only remaining crew member on board was the first mate, former Lieutenant Commander of the Royal Navy. According to the coast guard who questioned him, he seemed a bit psychotic, and insisted that he had no idea about the whereabouts of the rest of the crew members, instead he told a story of a giant monster of supernatural powers. Nobody believed it, of course.".
+Report switching on the control switch:
+	instead say "".
 The hallway contains the stairs. The description of the stairs is "Stairs to the upper deck, perhaps. But the hatch door is closed shut." The stairs is scenery. The hallway contains the hatch door. The description of the hatch door is "Heavy hatch door that prevents water from gushing down into lower decks during bad weathers. It is closed." The stairs is scenery.
-The southern hallway is a room. North of southern hallway is northern hallway. South of northern hallway is southern hallway.
+The hallway contains a power switch. The power switch is scenery. The description of the power switch is "This is the control to the hatch door."
+The southern hallway is a room. North of southern hallway is northern hallway. South of northern hallway is southern hallway. The description of the southern hallway is "Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?"
 A bunker door is a door. The southern hallway is north of the bunker door. The bunker door is south of the southern hallway. The description of the bunker door is "Bulky steel bunker door, doesn't seem to be locked."
+
+Before going from the hallway to the southern hallway for the first time: say "[paragraph break]You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?"
 [---------------------------------------------------Engn-------------------------------------------------------]
-The Engine room is a room. North of the engine room is the bunker door. South of the bunker door is the engine room. "This is the heart of the ship, you can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and big cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler. You can hear faint noises coming from the idle engines."
+The Engine room is a room. North of the engine room is the bunker door. South of the bunker door is the engine room. The description of the engine room is "This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler."
 The engine room contains a welding unit. The description of the welding unit is "[if not_broken of the item described is 1]An oxyacetylene welding unit, judging by the pressure indicator, it is still usable.[otherwise]Shit.[end if]".
 The engine room contains a workbench. The workbench is a supporter. The description of the workbench is "A workbench with a vise installed. Looks pretty old, you can clearly see large patches of rust and erosion on it.".
 A vise is part of the workbench. "A mechanical apparatus used to secure an object to allow work to be performed on it." It is fixed in place.
 A broken screwdriver handle is on the workbench. The description of the screwdriver handle is "A big screwdriver handle, the head is clearly snapped off, and nowhere to be found.[if the player does not have the broken screwdriver head] Where could it be?"
 A broken screwdriver head is under the workbench. The description of the broken screwdriver head is "A screwdriver head, broken off from a handle. The tip was utterly destroyed by someone, you can only see that what is remaining resembles a torx tip."
-A control panel is in the engine room. The description of the control panel is "A electrical control panel with buttons and levers all over. The most important 'Engine Start' button is covered by a steel protective shell with a big screw holding it in place."
-A welded screwdriver is nowhere. "A welded screwdriver, its head hastily welded to the handle, not the best screwdriver but still usable. The tip of the head is deliberately sabotaged by someone."
-The screw is part of the control panel. The description of the screw is "[if not_broken of the item described is 1]Six-lobed, star-patterned screw - a torx screw.[otherwise]A broken screw."
+A control panel is in the engine room. The description of the control panel is "A electrical control panel with buttons and levers all over. There are a few instruments here and there, you can see that the oil gauge is half full. The most important 'Engine Start' button is covered by a steel protective shell with a big screw holding it in place."
+The screw is part of the control panel. The screw is fixed in place. The description of the screw is "[if not_broken of the item described is 1]Six-lobed, star-patterned screw - a torx screw.[otherwise]A broken screw, still firmly holding ."
+The protective shell is part of the control panel. The shell is a closed container. The shell is locked. The shell is opaque. "[if not_broken of the item described is 1]A metallic looking protective shell enclosing the engine control. It looks quite sturdy.[otherwise]A metallic looking protective shell, there's a bullet hole on it."
+A button is in the protective shell. The button is a switched off device. The button is fixed in place. The description of the button is "A big button labelled 'Engine Control'."
+After examining the control panel for the first time:
+	say "[paragraph break]After reading the instruments, you realize that the ship is currently running on auxiliary power batteries, if you want to restore power to the ship, you'll have to reignite the main engine."
 
+A welded screwdriver is nowhere. The description of the welded screwdriver is "A welded screwdriver, its head hastily welded to the handle, not the best screwdriver but still usable. The tip of the head is deliberately sabotaged by someone."
+
+A strange screwdriver is nowhere. The description of the strange screwdriver is "Through ingenuity, you welded the screwdriver's broken tip to the screw and removed the screw from the panel."
+After taking the welded screwdriver:
+	instead say "You take the welded screwdriver into your pocket. But you know that it won't work on any screw because its tip was sabotaged."
+	
+Carry out switching off the button:
+	if the not_broken of the shell is 0:
+		instead say "Nothing happens. The button was destroyed by the shot.";
+	otherwise:
+		say "You hit the button. Slowly the engine grinds to a halt.";
+		now the button is switched off;
+		now the power_on is 0.
+
+Carry out switching on the button: 
+	if the not_broken of the shell is 0:
+		instead say "Nothing happens. The button was destroyed by the shot.";
+	otherwise:
+		say "You hit the button. Slowly the engine comes to life. The lights above begin to shine more brightly.";
+		now the button is switched on;
+		now the power_on is 1.
+
+Report switching on the button:
+	instead say "".
+[----------------------------------Welding Action----------------------------------------]
+Welding is an action applying to two things.
+Before welding something:
+	if the noun is the second noun:
+		instead say "You can't do this.";
+	if the welding unit is not in the location:
+		instead say "You don't have any tool to perform welding.";
+	if the noun is not touchable:
+		instead say "You can't see any such thing.";
+	if the second noun is not touchable:
+		instead say "You can't see any such thing."
+		
+Carry out welding:
+	if the second noun is touchable and the noun is touchable:
+		if the noun is broken screwdriver handle and the second noun is broken screwdriver head:
+			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.";
+			now the noun is nowhere;
+			now the second noun is nowhere;
+			now the welded screwdriver is on the workbench;
+			try taking the welded screwdriver;
+		otherwise if the noun is broken screwdriver head and the second noun is broken screwdriver handle:
+			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. Though not aligned perfectly, the screwdriver is reborn.";
+			now the noun is nowhere;
+			now the second noun is nowhere;
+			now the welded screwdriver is on the workbench;
+			try taking the welded screwdriver;
+		otherwise if the noun is the screw and the second noun is welded screwdriver:
+			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. You successfully welded the screwdriver with the screw.[paragraph break]You remove the screw from the shell, now the shell is no longer locked.";
+			now the screw is nowhere;
+			now the welded screwdriver is nowhere;
+			now the shell is unlocked;
+			now the strange screwdriver is in the engine room;
+		otherwise:
+			 say "This is a bad idea."
+
+Understand "weld [something] with [something]" as welding. 
+Understand "weld [something] to [something]" as welding. 
 [----------------------------------Screw Action----------------------------------------]
 Screwing it with is an action applying to one thing and one carried thing.
-Before welding something:
+
+Check screwing it with:
 	if the noun is the second noun:
 		instead say "You can't do this.";
 	if the second noun is not carried:
@@ -464,12 +524,13 @@ Carry out screwing it with:
 			say "You try to screw the torx screw on the panel with the broken handle, but it won't fit.";
 		if the second noun is broken screwdriver head and the noun is the screw:
 			say "You try to screw the torx screw on the panel with the broken screwdriver tip, but the tip is sabotaged and no longer fit into the torx screw.";
-		if the second noun is broken screwdriver head and the noun is the screw:
-			say "You try to screw the torx screw on the panel with the broken screwdriver tip, but the tip is sabotaged and no longer fit into the torx screw.";
+		if the second noun is welded screwdriver and the noun is the screw:
+			say "You try to screw the torx screw on the panel with the screwdriver that you fixed, but the tip is sabotaged and no longer fit into the torx screw. Is there any other way to make it work?";
+			now the screw is nowhere.
 
 Understand "screw [something] with [something]" as screwing it with. 
 
 The Captain's Chamber is a room. [South of the Captain's Chamber is the hallway. North of the hallway is the Captain's Chamber.]
 The Chamber contains a wooden desk. On the wooden desk is the Captain's Log. The ssize of the Log is S1. The table is fixed in place. The description of the wooden desk is "[if not_broken of the item described is 1]TODO - Wooden Desk [otherwise]Shit."
 
-Test a with "switch on light switch / wear coat / examine steel door / open steel door / look under bed / unlock drawer with key/ open drawer/ take pistol / shoot door / open door / go to hallway / go south/ go south".
+Test a with "switch on light switch / wear coat / examine steel door / open steel door / look under bed / unlock drawer with key/ open drawer/ take pistol / shoot door / open door / go to hallway / go south/ go south / search under workbench".
