@@ -444,7 +444,7 @@ A button is in the protective shell. The button is a switched off device. The bu
 After examining the control panel for the first time:
 	say "[paragraph break]After reading the instruments, you realize that the ship is currently running on auxiliary power batteries, if you want to restore power to the ship, you'll have to reignite the main engine."
 
-A welded screwdriver is nowhere. The description of the welded screwdriver is "A welded screwdriver, its head hastily welded to the handle, not the best screwdriver but still usable. The tip of the head is deliberately sabotaged by someone."
+A welded screwdriver is nowhere. The description of the welded screwdriver is "A welded screwdriver, its head hastily welded to the handle, not the best screwdriver but still usable. The tip of the head was deliberately sabotaged by someone."
 
 A strange screwdriver is nowhere. The description of the strange screwdriver is "Through ingenuity, you welded the screwdriver's broken tip to the screw and removed the screw from the panel."
 After taking the welded screwdriver:
