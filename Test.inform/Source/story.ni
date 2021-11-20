@@ -313,7 +313,7 @@ After deciding the scope of the player when the location is the Cabin:
 	place the bed in scope;
 	place the steel door in scope;
 	place the wall in scope;
-	
+
 Before touching the bed:
 	instead say "You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease."
 Before touching the pillow:
