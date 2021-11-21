@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-1">
   <generator>Windows Inform 7 6M62</generator>
-  <activeNode nodeId="node-996"/>
+  <activeNode nodeId="node-1001"/>
   <item nodeId="node-1">
     <command xml:space="preserve">Test</command>
     <result xml:space="preserve">Trigger warning: This game deals with violence and suicidal contents.&#x000A;&#x000A;&#x000A;&#x000A;The Ghost Ship&#x000A;An Interactive Fiction by "INFORMational Wizards" Release along with a website&#x000A;Release 1 / Serial number 211121 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Total Darkness&#x000A;You wake up, from an unbearable headache, it is as if you've been through a terrible nightmare. But what is worse is that you seem to have lost a large portion of your memory. It is a strange feeling - names, languages and general knowledge, of these you know still, but you can't remember the most important things at this moment - where the hell are you. &#x000A;&#x000A;You open your eyes as the acute headache subsides but you can't see anything. It is the most overwhelming darkness ever - it was not merely the darkness that came out of absence of light, it was much more sinister, almost as if something behind the darkness is watching your every move. You stretch your eyes as wide as possible trying to capture the even dimmest glimmer of light but still nothing but blackness.&#x000A;&#x000A;You are certain that you're in some kind of a room, the quiet and stale air gives away. Even though you cannot see anything, your other four senses are alright - you can feel the pillow beneath your head and the soft, warm quilt over your body.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-2"/>
       <child nodeId="node-3"/>
@@ -84,24 +84,24 @@
       <child nodeId="node-715"/>
       <child nodeId="node-750"/>
       <child nodeId="node-755"/>
-      <child nodeId="node-857"/>
-      <child nodeId="node-858"/>
-      <child nodeId="node-888"/>
-      <child nodeId="node-897"/>
-      <child nodeId="node-898"/>
+      <child nodeId="node-860"/>
+      <child nodeId="node-861"/>
+      <child nodeId="node-891"/>
       <child nodeId="node-900"/>
-      <child nodeId="node-908"/>
-      <child nodeId="node-916"/>
-      <child nodeId="node-917"/>
-      <child nodeId="node-925"/>
-      <child nodeId="node-934"/>
-      <child nodeId="node-942"/>
-      <child nodeId="node-962"/>
-      <child nodeId="node-984"/>
-      <child nodeId="node-991"/>
-      <child nodeId="node-993"/>
+      <child nodeId="node-901"/>
+      <child nodeId="node-903"/>
+      <child nodeId="node-911"/>
+      <child nodeId="node-919"/>
+      <child nodeId="node-920"/>
+      <child nodeId="node-928"/>
+      <child nodeId="node-937"/>
+      <child nodeId="node-945"/>
+      <child nodeId="node-965"/>
+      <child nodeId="node-987"/>
       <child nodeId="node-994"/>
-      <child nodeId="node-995"/>
+      <child nodeId="node-996"/>
+      <child nodeId="node-997"/>
+      <child nodeId="node-998"/>
     </children>
   </item>
   <item nodeId="node-2">
@@ -1497,7 +1497,7 @@
   </item>
   <item nodeId="node-174">
     <command xml:space="preserve">test a</command>
-    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] wear coat&#x000A;(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;[3] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[4] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[5] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[6] unlock drawer with key&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[7] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[8] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.&#x000A;&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - 5020.&#x000A;&#x000A;You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;[9] shoot door&#x000A;(the steel door)&#x000A;You shoot the steel door.&#x000A;You raise the pistol and aim your shot, your hand steady and stable. The bullet blasts forth at sonic speed, hitting the padlock right in the center of mass. An ear-bleeding metallic impact sound and blinding sparks ensue. You see that the padlock is now completely destroyed.&#x000A;&#x000A;&gt;[10] open door&#x000A;Now that the padlock is out of your way, you push the steel door open. As you've expected, you see the dimly lit hallway outside the steel door.&#x000A;&#x000A;&gt;[11] go to hallway&#x000A;(the northern hallway)&#x000A;You walk to the northern hallway.&#x000A;&#x000A;northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;[12] go south&#x000A;&#x000A;&#x000A;You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?&#x000A;&#x000A;southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;[13] go south&#x000A;(first opening the bunker door)&#x000A;&#x000A;Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can see a bunker door, a welding unit, a workbench (on which is a broken screwdriver handle) and a control panel here.&#x000A;&#x000A;&gt;[14] search under workbench&#x000A;You find the broken screwdriver head!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] wear coat&#x000A;(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;[3] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[4] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[5] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[6] unlock drawer with key&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[7] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[8] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The model is Webley Mk. IV, a memorial medal for a war veteran of a not so distant war.&#x000A;&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you see the bloody battles unfolding before your eyes. For a moment you're lost in the reminiscence, all things seem so surreal. When you finally find your way back to the reality, you seem to recall something - Lieutenant Commander in navy before leaving, and that shiny Meritorious Service Medal. The next thing comes to your mind is a certain passcode of some importance - 5590.&#x000A;&#x000A;You hold the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;[9] shoot door&#x000A;(the steel door)&#x000A;You shoot the steel door.&#x000A;You raise the pistol and aim your shot, your hand steady and stable. The bullet blasts forth at sonic speed, hitting the padlock right in the center of mass. An ear-bleeding metallic impact sound and blinding sparks ensue. You see that the padlock is now completely destroyed.&#x000A;&#x000A;&gt;[10] open door&#x000A;Now that the padlock is out of your way, you push the steel door open. As you've expected, you see the dimly lit hallway outside the steel door.&#x000A;&#x000A;&gt;[11] go to hallway&#x000A;(the northern hallway)&#x000A;You walk to the northern hallway.&#x000A;&#x000A;northern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of the hallway. North of the hallway is the stairs to the upper deck, but the hatch door is closed. There are a few doors alongside the hallway, but these doors are all locked, and awfully quiet.&#x000A;&#x000A;You can see a steel door, a control switch and a hatch door here.&#x000A;&#x000A;&gt;[12] go south&#x000A;&#x000A;&#x000A;You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?&#x000A;&#x000A;southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;[13] go south&#x000A;(first opening the bunker door)&#x000A;&#x000A;Engine room&#x000A;This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler.&#x000A;&#x000A;You can see a bunker door, a welding unit, a workbench (on which is a broken screwdriver handle) and a control panel here.&#x000A;&#x000A;&gt;[14] search under workbench&#x000A;You find the broken screwdriver head!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
@@ -1554,6 +1554,7 @@
       <child nodeId="node-496"/>
       <child nodeId="node-517"/>
       <child nodeId="node-518"/>
+      <child nodeId="node-1000"/>
     </children>
   </item>
   <item nodeId="node-175">
@@ -4512,6 +4513,21 @@
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
+  <item nodeId="node-1000">
+    <command xml:space="preserve">take welding unit</command>
+    <result xml:space="preserve">That's fixed in place.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1001"/>
+    </children>
+  </item>
+  <item nodeId="node-1001">
+    <command xml:space="preserve">push unit north</command>
+    <result xml:space="preserve">southern hallway&#x000A;Typical narrow hallway seen on common naval vessels, the engine room is south of here. The light is dimly lit, is the power supply running out of energy?&#x000A;&#x000A;You can see a bunker door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
   <item nodeId="node-526">
     <command xml:space="preserve">wear jacket</command>
     <result xml:space="preserve">(first taking the leather jacket)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;Turn pass&#x000A;&gt;</result>
@@ -6469,6 +6485,7 @@
       <child nodeId="node-814"/>
       <child nodeId="node-824"/>
       <child nodeId="node-825"/>
+      <child nodeId="node-857"/>
     </children>
   </item>
   <item nodeId="node-756">
@@ -7340,83 +7357,83 @@
     <changed>NO</changed>
   </item>
   <item nodeId="node-857">
+    <command xml:space="preserve">search under bed</command>
+    <result xml:space="preserve">You find the brass key!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-858"/>
+    </children>
+  </item>
+  <item nodeId="node-858">
+    <command xml:space="preserve">unlock drawer</command>
+    <result xml:space="preserve">(with the brass key)&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-859"/>
+    </children>
+  </item>
+  <item nodeId="node-859">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-860">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">Total Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
   </item>
-  <item nodeId="node-858">
+  <item nodeId="node-861">
     <command xml:space="preserve">stand up</command>
     <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-859"/>
-      <child nodeId="node-865"/>
-      <child nodeId="node-882"/>
+      <child nodeId="node-862"/>
+      <child nodeId="node-868"/>
+      <child nodeId="node-885"/>
     </children>
   </item>
-  <item nodeId="node-859">
+  <item nodeId="node-862">
     <command xml:space="preserve">feel myself</command>
     <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-860"/>
-      <child nodeId="node-861"/>
+      <child nodeId="node-863"/>
+      <child nodeId="node-864"/>
     </children>
   </item>
-  <item nodeId="node-860">
+  <item nodeId="node-863">
     <command xml:space="preserve">check myself</command>
     <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-861">
+  <item nodeId="node-864">
     <command xml:space="preserve">feel pillow</command>
     <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-862"/>
+      <child nodeId="node-865"/>
     </children>
   </item>
-  <item nodeId="node-862">
+  <item nodeId="node-865">
     <command xml:space="preserve">feel quilt</command>
     <result xml:space="preserve">Soft, handcrafted cotton quilt.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-863"/>
-    </children>
-  </item>
-  <item nodeId="node-863">
-    <command xml:space="preserve">feel light switch</command>
-    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-864"/>
-    </children>
-  </item>
-  <item nodeId="node-864">
-    <command xml:space="preserve">flip light</command>
-    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
-  <item nodeId="node-865">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
-    <children>
       <child nodeId="node-866"/>
     </children>
   </item>
   <item nodeId="node-866">
-    <command xml:space="preserve">get on the bed</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel light switch</command>
+    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7424,26 +7441,23 @@
     </children>
   </item>
   <item nodeId="node-867">
-    <command xml:space="preserve">move to bed</command>
-    <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light</command>
+    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-868"/>
-    </children>
   </item>
   <item nodeId="node-868">
-    <command xml:space="preserve">go to bed</command>
-    <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-869"/>
     </children>
   </item>
   <item nodeId="node-869">
-    <command xml:space="preserve">go bed</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get on the bed</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7451,8 +7465,8 @@
     </children>
   </item>
   <item nodeId="node-870">
-    <command xml:space="preserve">move bed</command>
-    <result xml:space="preserve">It is fixed in place.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">move to bed</command>
+    <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7460,7 +7474,7 @@
     </children>
   </item>
   <item nodeId="node-871">
-    <command xml:space="preserve">walk to bed</command>
+    <command xml:space="preserve">go to bed</command>
     <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -7469,8 +7483,8 @@
     </children>
   </item>
   <item nodeId="node-872">
-    <command xml:space="preserve">get on bed</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">go bed</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7478,8 +7492,8 @@
     </children>
   </item>
   <item nodeId="node-873">
-    <command xml:space="preserve">get in bed</command>
-    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">move bed</command>
+    <result xml:space="preserve">It is fixed in place.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7487,8 +7501,8 @@
     </children>
   </item>
   <item nodeId="node-874">
-    <command xml:space="preserve">place player on bed</command>
-    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">walk to bed</command>
+    <result xml:space="preserve">That noun did not make sense in this context.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7496,8 +7510,8 @@
     </children>
   </item>
   <item nodeId="node-875">
-    <command xml:space="preserve">put player on bed</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get on bed</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7505,8 +7519,8 @@
     </children>
   </item>
   <item nodeId="node-876">
-    <command xml:space="preserve">feel bed</command>
-    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get in bed</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7514,8 +7528,8 @@
     </children>
   </item>
   <item nodeId="node-877">
-    <command xml:space="preserve">feel pillow</command>
-    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">place player on bed</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7523,8 +7537,8 @@
     </children>
   </item>
   <item nodeId="node-878">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">put player on bed</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7532,8 +7546,8 @@
     </children>
   </item>
   <item nodeId="node-879">
-    <command xml:space="preserve">hear</command>
-    <result xml:space="preserve">What do you want to hear?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel bed</command>
+    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7541,8 +7555,8 @@
     </children>
   </item>
   <item nodeId="node-880">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">All you can hear is the sound of silence.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel pillow</command>
+    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7550,14 +7564,17 @@
     </children>
   </item>
   <item nodeId="node-881">
-    <command xml:space="preserve">feel myself</command>
-    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-882"/>
+    </children>
   </item>
   <item nodeId="node-882">
-    <command xml:space="preserve">feel pillow</command>
-    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">hear</command>
+    <result xml:space="preserve">What do you want to hear?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7565,8 +7582,8 @@
     </children>
   </item>
   <item nodeId="node-883">
-    <command xml:space="preserve">feel quilt</command>
-    <result xml:space="preserve">Soft, handcrafted cotton quilt.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">All you can hear is the sound of silence.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7574,17 +7591,14 @@
     </children>
   </item>
   <item nodeId="node-884">
-    <command xml:space="preserve">feel bed</command>
-    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel myself</command>
+    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-885"/>
-    </children>
   </item>
   <item nodeId="node-885">
-    <command xml:space="preserve">feel for light switch</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel pillow</command>
+    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7592,8 +7606,8 @@
     </children>
   </item>
   <item nodeId="node-886">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel quilt</command>
+    <result xml:space="preserve">Soft, handcrafted cotton quilt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7601,24 +7615,26 @@
     </children>
   </item>
   <item nodeId="node-887">
-    <command xml:space="preserve">flip switch</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel bed</command>
+    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-888"/>
+    </children>
   </item>
   <item nodeId="node-888">
-    <command xml:space="preserve">get up</command>
-    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;lul&#x000A;&gt;</result>
+    <command xml:space="preserve">feel for light switch</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <children>
       <child nodeId="node-889"/>
-      <child nodeId="node-895"/>
     </children>
   </item>
   <item nodeId="node-889">
-    <command xml:space="preserve">stand up</command>
-    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7626,26 +7642,24 @@
     </children>
   </item>
   <item nodeId="node-890">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-891"/>
-    </children>
   </item>
   <item nodeId="node-891">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Total Darkness&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">get up</command>
+    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;lul&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <children>
       <child nodeId="node-892"/>
+      <child nodeId="node-898"/>
     </children>
   </item>
   <item nodeId="node-892">
     <command xml:space="preserve">stand up</command>
-    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">But you aren't in anything at the moment.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7653,8 +7667,8 @@
     </children>
   </item>
   <item nodeId="node-893">
-    <command xml:space="preserve">check below pillow</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7662,14 +7676,17 @@
     </children>
   </item>
   <item nodeId="node-894">
-    <command xml:space="preserve">check pillow</command>
-    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Total Darkness&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-895"/>
+    </children>
   </item>
   <item nodeId="node-895">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">lul&#x000A;&gt;</result>
+    <command xml:space="preserve">stand up</command>
+    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7677,20 +7694,23 @@
     </children>
   </item>
   <item nodeId="node-896">
-    <command xml:space="preserve">look around</command>
+    <command xml:space="preserve">check below pillow</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-897"/>
+    </children>
   </item>
   <item nodeId="node-897">
-    <command xml:space="preserve">check myself</command>
-    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check pillow</command>
+    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-898">
-    <command xml:space="preserve">feel for the light switch</command>
-    <result xml:space="preserve">Total Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">lul&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7698,23 +7718,20 @@
     </children>
   </item>
   <item nodeId="node-899">
-    <command xml:space="preserve">flip light</command>
-    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-900">
-    <command xml:space="preserve">feel quilt</command>
-    <result xml:space="preserve">Soft, handcrafted cotton quilt.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check myself</command>
+    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-901"/>
-    </children>
   </item>
   <item nodeId="node-901">
-    <command xml:space="preserve">feel bed</command>
-    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel for the light switch</command>
+    <result xml:space="preserve">Total Darkness&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7722,17 +7739,14 @@
     </children>
   </item>
   <item nodeId="node-902">
-    <command xml:space="preserve">feel myself</command>
-    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light</command>
+    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you have to squeeze your eyes to adapt the sudden change.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-903"/>
-    </children>
   </item>
   <item nodeId="node-903">
-    <command xml:space="preserve">feel wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel quilt</command>
+    <result xml:space="preserve">Soft, handcrafted cotton quilt.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7740,8 +7754,8 @@
     </children>
   </item>
   <item nodeId="node-904">
-    <command xml:space="preserve">feel the wall</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel bed</command>
+    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7749,8 +7763,8 @@
     </children>
   </item>
   <item nodeId="node-905">
-    <command xml:space="preserve">feel bed</command>
-    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel myself</command>
+    <result xml:space="preserve">Limbs? Check. Legs? Check. Head? Check. Eyes? Check. Apparently your eyes are fine, it's just that the room is too dark.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7758,8 +7772,8 @@
     </children>
   </item>
   <item nodeId="node-906">
-    <command xml:space="preserve">feel light switch</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7767,57 +7781,57 @@
     </children>
   </item>
   <item nodeId="node-907">
+    <command xml:space="preserve">feel the wall</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-908"/>
+    </children>
+  </item>
+  <item nodeId="node-908">
+    <command xml:space="preserve">feel bed</command>
+    <result xml:space="preserve">You can feel the smooth linen bedsheet, a soft pillow. Nothing special about it, but lying in the bed makes you feel at ease.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-909"/>
+    </children>
+  </item>
+  <item nodeId="node-909">
+    <command xml:space="preserve">feel light switch</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-910"/>
+    </children>
+  </item>
+  <item nodeId="node-910">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-908">
+  <item nodeId="node-911">
     <command xml:space="preserve">feel switch</command>
     <result xml:space="preserve">You get off the bed, grope for any protrusion along the wall. Your finger touches a small metal lever, this must be it!&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-909"/>
-      <child nodeId="node-910"/>
+      <child nodeId="node-912"/>
+      <child nodeId="node-913"/>
     </children>
   </item>
-  <item nodeId="node-909">
+  <item nodeId="node-912">
     <command xml:space="preserve">flip switch</command>
     <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-910">
+  <item nodeId="node-913">
     <command xml:space="preserve">flip metal lever</command>
     <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-911"/>
-    </children>
-  </item>
-  <item nodeId="node-911">
-    <command xml:space="preserve">look window</command>
-    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it, it's pitch black outside - you can't even see a single star nor the moon. Even though the diameter could technically allow a person to crawl through, the window itself is not designed to be opened. &#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-912"/>
-    </children>
-  </item>
-  <item nodeId="node-912">
-    <command xml:space="preserve">look desk</command>
-    <result xml:space="preserve">A nice sturdy wooden desk. A built-in drawer with a keyhole is below its working surface.&#x000A;&#x000A;On the desk is a wedding picture.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-913"/>
-    </children>
-  </item>
-  <item nodeId="node-913">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7825,8 +7839,8 @@
     </children>
   </item>
   <item nodeId="node-914">
-    <command xml:space="preserve">look padlock</command>
-    <result xml:space="preserve">Bulky combination padlock with 4 digits, apparently someone put it on there, but who?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look window</command>
+    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it, it's pitch black outside - you can't even see a single star nor the moon. Even though the diameter could technically allow a person to crawl through, the window itself is not designed to be opened. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7834,61 +7848,64 @@
     </children>
   </item>
   <item nodeId="node-915">
+    <command xml:space="preserve">look desk</command>
+    <result xml:space="preserve">A nice sturdy wooden desk. A built-in drawer with a keyhole is below its working surface.&#x000A;&#x000A;On the desk is a wedding picture.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-916"/>
+    </children>
+  </item>
+  <item nodeId="node-916">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-917"/>
+    </children>
+  </item>
+  <item nodeId="node-917">
+    <command xml:space="preserve">look padlock</command>
+    <result xml:space="preserve">Bulky combination padlock with 4 digits, apparently someone put it on there, but who?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-918"/>
+    </children>
+  </item>
+  <item nodeId="node-918">
     <command xml:space="preserve">look door</command>
     <result xml:space="preserve">This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-916">
+  <item nodeId="node-919">
     <command xml:space="preserve">feel the wall</command>
     <result xml:space="preserve">You feel nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
   </item>
-  <item nodeId="node-917">
+  <item nodeId="node-920">
     <command xml:space="preserve">touch wall</command>
     <result xml:space="preserve">Your hand touches the cold steel wall near the bed, your finger tip sweeps across the wall surface, it is coarse and unfriendly, yet you feel a strange sense of affinity that you cannot quite explain.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>YES</changed>
     <children>
-      <child nodeId="node-918"/>
-      <child nodeId="node-919"/>
+      <child nodeId="node-921"/>
       <child nodeId="node-922"/>
+      <child nodeId="node-925"/>
     </children>
   </item>
-  <item nodeId="node-918">
+  <item nodeId="node-921">
     <command xml:space="preserve">feel wall</command>
     <result xml:space="preserve">&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-919">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-920"/>
-    </children>
-  </item>
-  <item nodeId="node-920">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-    <children>
-      <child nodeId="node-921"/>
-    </children>
-  </item>
-  <item nodeId="node-921">
-    <command xml:space="preserve">touch wall</command>
-    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
-    <commentary xml:space="preserve"></commentary>
-    <changed>NO</changed>
-  </item>
   <item nodeId="node-922">
-    <command xml:space="preserve">flip light</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7896,8 +7913,8 @@
     </children>
   </item>
   <item nodeId="node-923">
-    <command xml:space="preserve">look window</command>
-    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it, it's pitch black outside. Even though the diameter could fit a person, it is not designed to be opened. &#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7905,14 +7922,14 @@
     </children>
   </item>
   <item nodeId="node-924">
-    <command xml:space="preserve">look outside</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">touch wall</command>
+    <result xml:space="preserve">Your hand touches the cold steel wall. you can feel the slight vibration repeating sporadically, some kind of giant machine is running somewhere near.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
   <item nodeId="node-925">
-    <command xml:space="preserve">check under pillow</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a drawer on which is a picture and a porthole window.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency. Anyway, you need to get out of the room and find out what is this all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7920,8 +7937,8 @@
     </children>
   </item>
   <item nodeId="node-926">
-    <command xml:space="preserve">check pillow</command>
-    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look window</command>
+    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it, it's pitch black outside. Even though the diameter could fit a person, it is not designed to be opened. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7929,13 +7946,10 @@
     </children>
   </item>
   <item nodeId="node-927">
-    <command xml:space="preserve">check below</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look outside</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-928"/>
-    </children>
   </item>
   <item nodeId="node-928">
     <command xml:space="preserve">check under pillow</command>
@@ -7947,8 +7961,8 @@
     </children>
   </item>
   <item nodeId="node-929">
-    <command xml:space="preserve">check under bed</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check pillow</command>
+    <result xml:space="preserve">Bouncy feather pillow, soft and warm to the touch.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7956,8 +7970,8 @@
     </children>
   </item>
   <item nodeId="node-930">
-    <command xml:space="preserve">feel wall</command>
-    <result xml:space="preserve">Your hand touches the cold steel wall near the bed, your finger tip sweeps across the wall surface, it is coarse and unfriendly, yet you feel a strange sense of affinity that you cannot quite explain.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check below</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7965,8 +7979,8 @@
     </children>
   </item>
   <item nodeId="node-931">
-    <command xml:space="preserve">feel light switch</command>
-    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check under pillow</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7974,8 +7988,8 @@
     </children>
   </item>
   <item nodeId="node-932">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Total Darkness&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check under bed</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -7983,14 +7997,17 @@
     </children>
   </item>
   <item nodeId="node-933">
-    <command xml:space="preserve">feel light switch</command>
-    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel wall</command>
+    <result xml:space="preserve">Your hand touches the cold steel wall near the bed, your finger tip sweeps across the wall surface, it is coarse and unfriendly, yet you feel a strange sense of affinity that you cannot quite explain.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-934"/>
+    </children>
   </item>
   <item nodeId="node-934">
-    <command xml:space="preserve">feel for switch</command>
-    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel light switch</command>
+    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8007,17 +8024,14 @@
     </children>
   </item>
   <item nodeId="node-936">
-    <command xml:space="preserve">stand</command>
-    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel light switch</command>
+    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-937"/>
-    </children>
   </item>
   <item nodeId="node-937">
     <command xml:space="preserve">feel for switch</command>
-    <result xml:space="preserve">You grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You get off the bed, grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8025,8 +8039,8 @@
     </children>
   </item>
   <item nodeId="node-938">
-    <command xml:space="preserve">flip switch</command>
-    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Total Darkness&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8034,8 +8048,8 @@
     </children>
   </item>
   <item nodeId="node-939">
-    <command xml:space="preserve">look out</command>
-    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You get off the bed.&#x000A;&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8043,8 +8057,8 @@
     </children>
   </item>
   <item nodeId="node-940">
-    <command xml:space="preserve">look out window</command>
-    <result xml:space="preserve">I only understood you as far as wanting to look outside.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel for switch</command>
+    <result xml:space="preserve">You grope for a light switch along the wall. Your finger touches a metal switch, this must be it.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8052,14 +8066,17 @@
     </children>
   </item>
   <item nodeId="node-941">
-    <command xml:space="preserve">look window</command>
-    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it because it's pitch black outside. Even though the diameter could fit a person, it is not designed to be opened. &#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip switch</command>
+    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-942"/>
+    </children>
   </item>
   <item nodeId="node-942">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look out</command>
+    <result xml:space="preserve">You see nothing unexpected in that direction.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8067,8 +8084,8 @@
     </children>
   </item>
   <item nodeId="node-943">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look out window</command>
+    <result xml:space="preserve">I only understood you as far as wanting to look outside.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8076,17 +8093,14 @@
     </children>
   </item>
   <item nodeId="node-944">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look window</command>
+    <result xml:space="preserve">A single porthole window full of small scratches, the rim is a bit rusty. You cannot see anything through it because it's pitch black outside. Even though the diameter could fit a person, it is not designed to be opened. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-945"/>
-    </children>
   </item>
   <item nodeId="node-945">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8094,8 +8108,8 @@
     </children>
   </item>
   <item nodeId="node-946">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8104,7 +8118,7 @@
   </item>
   <item nodeId="node-947">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8131,7 +8145,7 @@
   </item>
   <item nodeId="node-950">
     <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8157,8 +8171,8 @@
     </children>
   </item>
   <item nodeId="node-953">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8166,8 +8180,8 @@
     </children>
   </item>
   <item nodeId="node-954">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8175,8 +8189,8 @@
     </children>
   </item>
   <item nodeId="node-955">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Total Darkness&#x000A;You can't even see your hands!&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8193,8 +8207,8 @@
     </children>
   </item>
   <item nodeId="node-957">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8202,8 +8216,8 @@
     </children>
   </item>
   <item nodeId="node-958">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8211,8 +8225,8 @@
     </children>
   </item>
   <item nodeId="node-959">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8221,7 +8235,7 @@
   </item>
   <item nodeId="node-960">
     <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8233,10 +8247,13 @@
     <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-962"/>
+    </children>
   </item>
   <item nodeId="node-962">
-    <command xml:space="preserve">test a </command>
-    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[3] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[4] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[5] unlock drawer&#x000A;(with the brass key)&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[6] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[7] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The revolver is a Webley Mk. IV revolver, a memorial medal for a war veteran of a not so distant war.&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you seem to recall a certain passcode - 9724.&#x000A;&#x000A;You take the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8244,8 +8261,8 @@
     </children>
   </item>
   <item nodeId="node-963">
-    <command xml:space="preserve">look bookshelf</command>
-    <result xml:space="preserve">A fairly large metallic bookshelf fixed to the wall and ceiling. It is filled with all kinds of books - "How to Avoid Huge Ships, Beyond Good &amp; Evil, Strange Creatures at Sea.". &#x000A;&#x000A;In the bookshelf are some books.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8253,17 +8270,14 @@
     </children>
   </item>
   <item nodeId="node-964">
-    <command xml:space="preserve">close drawer</command>
-    <result xml:space="preserve">You close the drawer.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;lol&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-965"/>
-    </children>
   </item>
   <item nodeId="node-965">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open the drawer.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">test a </command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[3] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[4] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[5] unlock drawer&#x000A;(with the brass key)&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[6] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[7] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The revolver is a Webley Mk. IV revolver, a memorial medal for a war veteran of a not so distant war.&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you seem to recall a certain passcode - 9724.&#x000A;&#x000A;You take the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8271,8 +8285,8 @@
     </children>
   </item>
   <item nodeId="node-966">
-    <command xml:space="preserve">check pistol</command>
-    <result xml:space="preserve">A Webley Mk. IV .455 revolver pistol.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look bookshelf</command>
+    <result xml:space="preserve">A fairly large metallic bookshelf fixed to the wall and ceiling. It is filled with all kinds of books - "How to Avoid Huge Ships, Beyond Good &amp; Evil, Strange Creatures at Sea.". &#x000A;&#x000A;In the bookshelf are some books.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8280,8 +8294,8 @@
     </children>
   </item>
   <item nodeId="node-967">
-    <command xml:space="preserve">investigate pistol</command>
-    <result xml:space="preserve">A Webley Mk. IV .455 revolver pistol.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">close drawer</command>
+    <result xml:space="preserve">You close the drawer.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8289,8 +8303,8 @@
     </children>
   </item>
   <item nodeId="node-968">
-    <command xml:space="preserve">dial the padlock to 4555</command>
-    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8298,8 +8312,8 @@
     </children>
   </item>
   <item nodeId="node-969">
-    <command xml:space="preserve">check under pillow</command>
-    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check pistol</command>
+    <result xml:space="preserve">A Webley Mk. IV .455 revolver pistol.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8307,8 +8321,8 @@
     </children>
   </item>
   <item nodeId="node-970">
-    <command xml:space="preserve">restart</command>
-    <result xml:space="preserve">Are you sure you want to restart?</result>
+    <command xml:space="preserve">investigate pistol</command>
+    <result xml:space="preserve">A Webley Mk. IV .455 revolver pistol.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8316,8 +8330,8 @@
     </children>
   </item>
   <item nodeId="node-971">
-    <command xml:space="preserve">y</command>
-    <result xml:space="preserve">The Ghost Ship&#x000A;An Interactive Fiction by "Zonghan Guowang" Release along with a website&#x000A;Release 1 / Serial number 211118 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Total Darkness&#x000A;You wake up, from an unbearable headache, it is as if you've been through a terrible nightmare. But what is worse is that you seem to have lost a large portion of your memory. It is a strange feeling - names, languages and general knowledge, of these you know still, but you can't remember the most important things at this moment - where the hell are you. &#x000A;&#x000A;You open your eyes as the acute headache subsides but you can't see anything. It is the most overwhelming darkness ever - it was not merely the darkness that came out of absence of light, it was much more sinister, almost as if something behind the darkness is watching your every move. You stretch your eyes as wide as possible trying to capture the even dimmest glimmer of light but still nothing but blackness.&#x000A;&#x000A;You are certain that you're in some kind of a room, the quiet and stale air gives away. Even though you cannot see anything, your other four senses are alright - you feel the pillow beneath your head and the soft, warm quilt over your body.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">dial the padlock to 4555</command>
+    <result xml:space="preserve">You turn the dial, but nothing happens.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8326,7 +8340,7 @@
   </item>
   <item nodeId="node-972">
     <command xml:space="preserve">check under pillow</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You find nothing of interest.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8334,8 +8348,8 @@
     </children>
   </item>
   <item nodeId="node-973">
-    <command xml:space="preserve">look under pillow</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">Are you sure you want to restart?</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8343,8 +8357,8 @@
     </children>
   </item>
   <item nodeId="node-974">
-    <command xml:space="preserve">search under pillow</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">The Ghost Ship&#x000A;An Interactive Fiction by "Zonghan Guowang" Release along with a website&#x000A;Release 1 / Serial number 211118 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Total Darkness&#x000A;You wake up, from an unbearable headache, it is as if you've been through a terrible nightmare. But what is worse is that you seem to have lost a large portion of your memory. It is a strange feeling - names, languages and general knowledge, of these you know still, but you can't remember the most important things at this moment - where the hell are you. &#x000A;&#x000A;You open your eyes as the acute headache subsides but you can't see anything. It is the most overwhelming darkness ever - it was not merely the darkness that came out of absence of light, it was much more sinister, almost as if something behind the darkness is watching your every move. You stretch your eyes as wide as possible trying to capture the even dimmest glimmer of light but still nothing but blackness.&#x000A;&#x000A;You are certain that you're in some kind of a room, the quiet and stale air gives away. Even though you cannot see anything, your other four senses are alright - you feel the pillow beneath your head and the soft, warm quilt over your body.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8352,8 +8366,8 @@
     </children>
   </item>
   <item nodeId="node-975">
-    <command xml:space="preserve">check light switch</command>
-    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check under pillow</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8361,8 +8375,8 @@
     </children>
   </item>
   <item nodeId="node-976">
-    <command xml:space="preserve">feel light switch</command>
-    <result xml:space="preserve">You get off the bed, grope for any protrusion along the wall. Your finger touches a small metal lever, this must be it!&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look under pillow</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8370,8 +8384,8 @@
     </children>
   </item>
   <item nodeId="node-977">
-    <command xml:space="preserve">flip light on</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">search under pillow</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8379,8 +8393,8 @@
     </children>
   </item>
   <item nodeId="node-978">
-    <command xml:space="preserve">switch light</command>
-    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">check light switch</command>
+    <result xml:space="preserve">It is pitch dark, and you can't see a thing.&#x000A;&#x000A;If this is a room, surely there must be a light switch somewhere.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8388,8 +8402,8 @@
     </children>
   </item>
   <item nodeId="node-979">
-    <command xml:space="preserve">look light switch</command>
-    <result xml:space="preserve">TODO - light switch &#x000A;&#x000A;The light switch is currently switched on.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">feel light switch</command>
+    <result xml:space="preserve">You get off the bed, grope for any protrusion along the wall. Your finger touches a small metal lever, this must be it!&#x000A;&#x000A;&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8397,8 +8411,8 @@
     </children>
   </item>
   <item nodeId="node-980">
-    <command xml:space="preserve">look wardrobe</command>
-    <result xml:space="preserve">TODO - Wardrobe &#x000A;&#x000A;In the wardrobe is a leather coat.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">flip light on</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8406,8 +8420,8 @@
     </children>
   </item>
   <item nodeId="node-981">
-    <command xml:space="preserve">wear coat</command>
-    <result xml:space="preserve">(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">switch light</command>
+    <result xml:space="preserve">As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8415,8 +8429,8 @@
     </children>
   </item>
   <item nodeId="node-982">
-    <command xml:space="preserve">smell the air</command>
-    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look light switch</command>
+    <result xml:space="preserve">TODO - light switch &#x000A;&#x000A;The light switch is currently switched on.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8424,14 +8438,17 @@
     </children>
   </item>
   <item nodeId="node-983">
-    <command xml:space="preserve">smell</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">look wardrobe</command>
+    <result xml:space="preserve">TODO - Wardrobe &#x000A;&#x000A;In the wardrobe is a leather coat.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-984"/>
+    </children>
   </item>
   <item nodeId="node-984">
-    <command xml:space="preserve">smell the air</command>
-    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">wear coat</command>
+    <result xml:space="preserve">(first taking the leather coat)&#x000A;You now have more pockets to store items.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8439,7 +8456,7 @@
     </children>
   </item>
   <item nodeId="node-985">
-    <command xml:space="preserve">smell the room</command>
+    <command xml:space="preserve">smell the air</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
@@ -8448,17 +8465,14 @@
     </children>
   </item>
   <item nodeId="node-986">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">You hear nothing unexpected.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
-    <children>
-      <child nodeId="node-987"/>
-    </children>
   </item>
   <item nodeId="node-987">
-    <command xml:space="preserve">hear</command>
-    <result xml:space="preserve">What do you want to hear?&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell the air</command>
+    <result xml:space="preserve">You can smell thin salt air, indicating sea nearby.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8466,8 +8480,8 @@
     </children>
   </item>
   <item nodeId="node-988">
-    <command xml:space="preserve">listen wall</command>
-    <result xml:space="preserve">I only understood you as far as wanting to listen.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">smell the room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8475,8 +8489,8 @@
     </children>
   </item>
   <item nodeId="node-989">
-    <command xml:space="preserve">test a</command>
-    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[3] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[4] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[5] unlock drawer&#x000A;(with the brass key)&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[6] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[7] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The revolver is a Webley Mk. IV revolver, a memorial medal for a war veteran of a not so distant war.&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you seem to recall a certain passcode - 3413.&#x000A;&#x000A;You take the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You hear nothing unexpected.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8484,14 +8498,17 @@
     </children>
   </item>
   <item nodeId="node-990">
-    <command xml:space="preserve">listen</command>
-    <result xml:space="preserve">You can hear faint hummings of electricity.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">hear</command>
+    <result xml:space="preserve">What do you want to hear?&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
+    <children>
+      <child nodeId="node-991"/>
+    </children>
   </item>
   <item nodeId="node-991">
-    <command xml:space="preserve">try to smell</command>
-    <result xml:space="preserve">(ignoring the unnecessary words "try to")&#x000A;&#x000A;You get a sniff of a greasy smell, you must be lying on this pillow for quite some time.&#x000A;&#x000A;&gt;</result>
+    <command xml:space="preserve">listen wall</command>
+    <result xml:space="preserve">I only understood you as far as wanting to listen.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
@@ -8499,33 +8516,57 @@
     </children>
   </item>
   <item nodeId="node-992">
+    <command xml:space="preserve">test a</command>
+    <result xml:space="preserve">(Testing.)&#x000A;&#x000A;&gt;[1] switch on light switch&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&#x000A;&#x000A;As soon as you hit the switch, glorious radiance pours down from the ceiling light, filling the room and forcing the darkness to recede. For a moment you are almost blinded by it.&#x000A;&#x000A;Cabin&#x000A;Spacious ship cabin for a single sailor. The only thing that deviates from the overall pragmatic design is the refined wooden plate floor. There's a single porthole window on the plain steel wall, its rim is a little bit rusty. Despite scattered scratches, bulges, wear and tear on the wall, the cabin withstood the vicissitudes of time.&#x000A;&#x000A;You can see a steel door that is locked under a combination padlock, a table on which is a few paper, a bed, a bookshelf in which are some books, a wardrobe in which is a leather coat, a closet in which is a few cups, a desk with a built-in drawer. On the desk is a picture decorated inside a frame.&#x000A;&#x000A;&#x000A;You are still quite confused about the situation, but you somehow feel a sense of urgency, as if something bad is about to happen. Anyway, you need to get out of the room and find out what this is all about.&#x000A;&#x000A;&gt;[2] examine steel door&#x000A;This is just a typical steel door on a military vessel - heavy and sturdy. You notice there is an old padlock on the hasp. If you want to go out, you'll definitely need to get rid of this padlock.&#x000A;&#x000A;&gt;[3] open steel door&#x000A;You cannot force open the door while there's a sturdy padlock holding it in place.&#x000A;&#x000A;&gt;[4] look under bed&#x000A;You find the brass key!&#x000A;&#x000A;&gt;[5] unlock drawer&#x000A;(with the brass key)&#x000A;You unlock the drawer.&#x000A;&#x000A;&gt;[6] open drawer&#x000A;You open the drawer, revealing a revolver pistol.&#x000A;&#x000A;&gt;[7] take pistol&#x000A;An antique revolver pistol lies silently in the drawer. The revolver is a Webley Mk. IV revolver, a memorial medal for a war veteran of a not so distant war.&#x000A;The moment you see it, you feel something is awakening deep inside your memory, you seem to recall a certain passcode - 3413.&#x000A;&#x000A;You take the pistol and instinctly hit the break lever, flip the fore-piece forward and look into the cylinder to check how many bullets are left. To your disappointment, it seems there is only one .455 bullet left in the cylinder.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-993"/>
+    </children>
+  </item>
+  <item nodeId="node-993">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You can hear faint hummings of electricity.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-994">
+    <command xml:space="preserve">try to smell</command>
+    <result xml:space="preserve">(ignoring the unnecessary words "try to")&#x000A;&#x000A;You get a sniff of a greasy smell, you must be lying on this pillow for quite some time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-995"/>
+    </children>
+  </item>
+  <item nodeId="node-995">
     <command xml:space="preserve">try to stand up</command>
     <result xml:space="preserve">(ignoring the unnecessary words "try to")&#x000A;&#x000A;You get off the bed.&#x000A;&#x000A;&#x000A;It's pitch black, and you can't see a thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-993">
+  <item nodeId="node-996">
     <command xml:space="preserve">smell pillow with nose</command>
     <result xml:space="preserve">(ignoring the unnecessary words "with nose")&#x000A;&#x000A;You get a sniff of a greasy smell, you must be lying on this pillow for quite some time.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-994">
+  <item nodeId="node-997">
     <command xml:space="preserve">find switch</command>
     <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
   </item>
-  <item nodeId="node-995">
+  <item nodeId="node-998">
     <command xml:space="preserve">feel head</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <changed>NO</changed>
     <children>
-      <child nodeId="node-996"/>
+      <child nodeId="node-999"/>
     </children>
   </item>
-  <item nodeId="node-996">
+  <item nodeId="node-999">
     <command xml:space="preserve">touch head</command>
     <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>

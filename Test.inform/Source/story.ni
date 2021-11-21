@@ -88,6 +88,7 @@ Understand "investigate [thing]" as examining.
 Understand "inspect [thing]" as examining.
 Understand "look around" as looking.
 Understand "smell the air" as smelling.
+Understand "smell air" as smelling.
 Understand "look on [thing]" as examining.
 
 Going by name is an action applying to one thing. 
@@ -432,7 +433,7 @@ A bunker door is a door. The southern hallway is north of the bunker door. The b
 Before going from the hallway to the southern hallway for the first time: say "[paragraph break]You realize that the ship is too steady, as if something is holding it in place. Normally a ship would be reacting to the waves even if it stops and drops the anchor, and if the ship is beached, you'd be able to hear sounds of waves hitting the beach. something is definitely not right. Besides, you haven't seen a single soul so far, where are the crew members?"
 [---------------------------------------------------Engn-------------------------------------------------------]
 The Engine room is a room. North of the engine room is the bunker door. South of the bunker door is the engine room. The description of the engine room is "This is the heart of the ship, the ceiling lights are a bit faint, but you still can see exposed wires zizaging from the floor to the roof, huge pipes coming down from the roof connecting to several big engines and cylindrical containers. Juding by the sizes of these engines, the ship is definitely not some kind of huge war ship or giant cargo hauler."
-The engine room contains a welding unit. The description of the welding unit is "[if not_broken of the item described is 1]An oxyacetylene welding unit, judging by the pressure indicator, it is still usable.[otherwise]Shit.[end if]".
+The engine room contains a welding unit. The description of the welding unit is "[if not_broken of the item described is 1]An oxyacetylene welding unit, judging by the pressure indicator, it is still usable.[otherwise]Shit.[end if]". The welding is pushable between rooms. The welding unit is not portable.
 The engine room contains a workbench. The workbench is a supporter. The description of the workbench is "A workbench with a vise installed. Looks pretty old, you can clearly see large patches of rust and erosion on it.".
 A vise is part of the workbench. "A mechanical apparatus used to secure an object to allow work to be performed on it." It is fixed in place.
 A broken screwdriver handle is on the workbench. The description of the screwdriver handle is "A big screwdriver handle, the head is clearly snapped off, and nowhere to be found.[if the player does not have the broken screwdriver head] Where could it be?"
