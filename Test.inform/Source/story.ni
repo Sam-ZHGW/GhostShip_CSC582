@@ -501,6 +501,12 @@ Carry out welding:
 			now the welded screwdriver is nowhere;
 			now the shell is unlocked;
 			now the strange screwdriver is in the engine room;
+		otherwise if the second noun is the screw and the noun is welded screwdriver:
+			say "You fire up the welding unit, flame bursts forward from the nuzzle. You try your best to weld the two pieces together, and somehow it works. You successfully welded the screwdriver with the screw.[paragraph break]You remove the screw from the shell, now the shell is no longer locked.";
+			now the screw is nowhere;
+			now the welded screwdriver is nowhere;
+			now the shell is unlocked;
+			now the strange screwdriver is in the engine room;
 		otherwise:
 			 say "This is a bad idea."
 
@@ -526,8 +532,7 @@ Carry out screwing it with:
 		if the second noun is broken screwdriver head and the noun is the screw:
 			say "You try to screw the torx screw on the panel with the broken screwdriver tip, but the tip is sabotaged and no longer fit into the torx screw.";
 		if the second noun is welded screwdriver and the noun is the screw:
-			say "You try to screw the torx screw on the panel with the screwdriver that you fixed, but the tip is sabotaged and no longer fit into the torx screw. Is there any other way to make it work?";
-			now the screw is nowhere.
+			say "You try to screw the torx screw on the panel with the screwdriver that you fixed, but the tip is sabotaged and no longer fit into the torx screw. Is there any other way to make it work?".
 
 Understand "screw [something] with [something]" as screwing it with. 
 
@@ -535,3 +540,4 @@ The Captain's Chamber is a room. [South of the Captain's Chamber is the hallway.
 The Chamber contains a wooden desk. On the wooden desk is the Captain's Log. The ssize of the Log is S1. The table is fixed in place. The description of the wooden desk is "[if not_broken of the item described is 1]TODO - Wooden Desk [otherwise]Shit."
 
 Test a with "switch on light switch / wear coat / examine steel door / open steel door / look under bed / unlock drawer with key/ open drawer/ take pistol / shoot door / open door / go to hallway / go south/ go south / search under workbench".
+
